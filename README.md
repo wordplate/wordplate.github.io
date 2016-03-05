@@ -1,6 +1,6 @@
-# Vincent Klaiber
+# WordPlate
 
-This is my personal website. Keeping it simple. https://vinkla.com
+This is the [WordPlate](https://wordplate.github.io/) website. Keeping it simple.
 
 ## License
 
