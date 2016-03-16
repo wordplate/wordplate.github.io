@@ -8,6 +8,7 @@ gulp.task('markup', callback => {
     gulp.src(config.src)
       .pipe(htmlmin(config.htmlmin))
       .pipe(gulp.dest(config.dest));
-    return callback();
+
+    return setTimeout(callback, 1000);
   });
 });
