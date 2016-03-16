@@ -1,7 +1,7 @@
 import config from './';
 
 export default {
-  src: config.public + '/*.html',
+  src: config.public + '/**/*.html',
   dest: config.public,
   htmlmin: {
     collapseWhitespace: true,
