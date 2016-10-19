@@ -11,8 +11,6 @@ twitter:
 
 logo: https://avatars2.githubusercontent.com/u/11923978
 
-google_site_verification: k1b2WlZeQuK2T7X1vY_9IdacPqNuT56rQCJbNDbg0dI
-
 exclude: [Gemfile, Gemfile.lock, LICENSE, README.md]
 
 sass:
