@@ -1,0 +1,28 @@
+title: WordPlate
+description: WordPlate is a modern WordPress stack which tries to simplify the fuzziness around WordPress development. Don't repeat yourself.
+url: https://wordplate.github.io/
+author:
+  name: Vincent Klaiber
+  picture: https://avatars2.githubusercontent.com/u/11923978
+  twitter: vnkla
+
+twitter:
+  username: vnkla
+
+logo: https://avatars2.githubusercontent.com/u/11923978
+
+google_site_verification: k1b2WlZeQuK2T7X1vY_9IdacPqNuT56rQCJbNDbg0dI
+
+exclude: [Gemfile, Gemfile.lock, LICENSE, README.md]
+
+sass:
+  style: compressed
+  sass_dir: assets/styles
+
+gems:
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji

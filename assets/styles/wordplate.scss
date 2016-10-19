@@ -1,6 +1,6 @@
+---
+---
 @charset 'UTF-8';
-
-@import '../../node_modules/sanitize.css/lib/sanitize.scss';
 
 html, body {
   width: 100%;
@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  font-family: proxima-nova, helvetica, arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 18px;
   background: #719ee5;
@@ -16,9 +16,11 @@ body {
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 p {
+  margin-top: 0;
   margin-bottom: 25px;
   line-height: 28px;
   letter-spacing: .02em;
@@ -36,20 +38,24 @@ main {
 }
 
 h1, h1 a {
-  font-family: proxima-nova-soft, helvetica, arial, sans-serif;
+  font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 60px;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 pre {
   font-size: 16px;
   text-align: center;
-  margin: 0 auto 5px;
+  margin: 0 auto 15px;
 }
 
 code {
-  display: inline-block;
+  display: block;
   background: #373946;
   border-radius: 2px;
   padding: 10px 15px;
+  overflow: scroll;
+  max-width: 460px;
+  margin: 0 auto;
 }
