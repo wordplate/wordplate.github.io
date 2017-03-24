@@ -27,9 +27,9 @@
 
     const keys = ['AUTH_KEY', 'SECURE_AUTH_KEY', 'LOGGED_IN_KEY', 'NONCE_KEY', 'AUTH_SALT', 'SECURE_AUTH_SALT', 'LOGGED_IN_SALT', 'NONCE_SALT'];
 
-    function generate() {
+    function randomString() {
       var text = '';
-      var possible = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#%^&*()-_[]{}<>~`+=,.;:/?|';
+      var possible = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
       for (var i = 0; i < 64; i++ ) {
         text += possible.charAt(Math.floor(Math.random() * possible.length));
@@ -41,7 +41,7 @@
     var pre = document.getElementById('pre')
 
     for (var i = 0; i < keys.length; i++) {
-      pre.innerText += (keys[i] + "='" + generate() + "'") + "\n";
+      pre.innerText += (keys[i] + "=" + randomString()) + "\n";
     }
   </script>
 </body>
