@@ -11,7 +11,9 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   font-size: 18px;
-  background: #719ee5;
+  background: #74b3ff;
+  background: -webkit-linear-gradient(top left, #74b3ff, #4398FF);
+  background: linear-gradient(to bottom right, #74b3ff, #4398FF);
 }
 
 a {
@@ -38,10 +40,11 @@ main {
 }
 
 h1, h1 a {
-  font-family: 'Varela Round', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Comfortaa', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 60px;
   font-weight: 400;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 pre {
