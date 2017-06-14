@@ -1,5 +1,5 @@
 title: WordPlate
-description: A modern WordPress stack which tries to simplify the fuzziness around WordPress development. Don't repeat yourself.
+description: WordPlate is a modern WordPress stack. It simplifies the fuzziness around WordPress development. Built with Composer.
 url: https://wordplate.github.io/
 author:
   name: Vincent Klaiber
