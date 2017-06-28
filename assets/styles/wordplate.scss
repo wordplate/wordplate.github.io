@@ -17,7 +17,9 @@ a { text-decoration: none; }
 
 .markdown-body a { color: #4a9cff; }
 
-.markdown-body h2 {
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
   cursor: pointer;
 
   &:before {
