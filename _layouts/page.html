@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<main>
+  <aside>
+    <header>
+      <h1>WordPlate</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#" class="navigation__item navigation__item--active">Getting Started</a></li>
+        <li><a href="#" class="navigation__item">Upgrade Guide</a></li>
+        <li><a href="#" class="navigation__item">Theming</a></li>
+        <li><a href="#" class="navigation__item">Plugins</a></li>
+        <li><a href="#" class="navigation__item">Mail</a></li>
+        <li><a href="#" class="navigation__item">Fields</a></li>
+        <li><a href="#" class="navigation__item">Post Types</a></li>
+        <li><a href="#" class="navigation__item">Taxonomies</a></li>
+        <li><a href="#" class="navigation__item">Helpers</a></li>
+        <li><a href="#" class="navigation__item">Security</a></li>
+        <li><a href="#" class="navigation__item">Compiling Assets</a></li>
+        <li><a href="#" class="navigation__item">Contributing</a></li>
+        <li><a href="#" class="navigation__item">GitHub</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <article class="markdown-body">
+    <header>
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    {{ content }}
+
+    <footer>
+      <small><a href="https://github.com/wordplate/wordplate.github.io/blob/master/LICENSE">&copy; {{ site.time | date: '%Y' }} MIT</a></small>
+    </footer>
+  </article>
+</main>
+
+<script>
+  'use strict';
+
+  const headings = document.querySelectorAll('.markdown-body h2');
+
+  headings.forEach(heading => heading.addEventListener('click', event => {
+    window.location = `#${event.target.id}`;
+  }));
+</script>
