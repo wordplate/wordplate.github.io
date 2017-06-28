@@ -13,12 +13,10 @@ body {
   line-height: 24px;
 }
 
-a {
-  text-decoration: none;
-}
-
+a,
 .markdown-body a {
   color: #4a9cff;
+  text-decoration: none;
 
   &:hover { text-decoration: underline; }
 }
@@ -54,11 +52,11 @@ blockquote {
 main {
   display: flex;
   flex-direction: row;
+  min-height: 100%;
 }
 
 aside {
   width: 250px;
-  margin-right: 2em;
 
   header {
     background-color: #4a9cff;
@@ -112,6 +110,7 @@ aside {
 
 article {
   max-width: 800px;
+  padding-left: 2.15em;
   margin-bottom: 2em;
 }
 
@@ -126,11 +125,11 @@ article {
     line-height: 30px;
     font-weight: 300;
     letter-spacing: 0.05em;
-  }
 
-  a {
-    color: #768093;
-    text-decoration: none;
+    a {
+      color: #768093;
+      text-decoration: none;
+    }
   }
 
   main {
@@ -138,6 +137,11 @@ article {
     display: flex;
     flex-flow: column;
     justify-content: center;
+  }
+
+  article {
+    max-width: 800px;
+    margin-bottom: 2em;
   }
 
   h1, h1 a {

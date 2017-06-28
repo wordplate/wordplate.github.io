@@ -4,24 +4,49 @@ layout: default
 <main>
   <aside>
     <header>
-      <h1>WordPlate</h1>
+      <a href="/">
+        <h1>WordPlate</h1>
+      </a>
     </header>
 
     <nav>
       <ul>
-        <li><a href="#" class="navigation__item navigation__item--active">Getting Started</a></li>
-        <li><a href="#" class="navigation__item">Upgrade Guide</a></li>
-        <li><a href="#" class="navigation__item">Theming</a></li>
-        <li><a href="#" class="navigation__item">Plugins</a></li>
-        <li><a href="#" class="navigation__item">Mail</a></li>
-        <li><a href="#" class="navigation__item">Fields</a></li>
-        <li><a href="#" class="navigation__item">Post Types</a></li>
-        <li><a href="#" class="navigation__item">Taxonomies</a></li>
-        <li><a href="#" class="navigation__item">Helpers</a></li>
-        <li><a href="#" class="navigation__item">Security</a></li>
-        <li><a href="#" class="navigation__item">Compiling Assets</a></li>
-        <li><a href="#" class="navigation__item">Contributing</a></li>
-        <li><a href="#" class="navigation__item">GitHub</a></li>
+        <li>
+          <a href="/docs/getting-started" class="navigation__item{% if page.path contains "getting-started" %} navigation__item--active{% endif %}">Getting Started</a>
+        </li>
+        <li>
+          <a href="/docs/upgrade-guide" class="navigation__item{% if page.path contains "upgrade-guide" %} navigation__item--active{% endif %}">Upgrade Guide</a>
+        </li>
+        <li>
+          <a href="/docs/theming" class="navigation__item{% if page.path contains "theming" %} navigation__item--active{% endif %}">Theming</a>
+        </li>
+        <li>
+          <a href="/docs/plugins" class="navigation__item{% if page.path contains "plugins" %} navigation__item--active{% endif %}">Plugins</a>
+        </li>
+        <li>
+          <a href="/docs/mail" class="navigation__item{% if page.path contains "mail" %} navigation__item--active{% endif %}">Mail</a>
+        </li>
+        <li>
+          <a href="/docs/custom-fields" class="navigation__item{% if page.path contains "custom-fields" %} navigation__item--active{% endif %}">Custom Fields</a>
+        </li>
+        <li>
+          <a href="/docs/post-types" class="navigation__item{% if page.path contains "post-types" %} navigation__item--active{% endif %}">Post Types</a>
+        </li>
+        <li>
+          <a href="/docs/taxonomies" class="navigation__item{% if page.path contains "taxonomies" %} navigation__item--active{% endif %}">Taxonomies</a>
+        </li>
+        <li>
+          <a href="/docs/helpers" class="navigation__item{% if page.path contains "helpers" %} navigation__item--active{% endif %}">Helpers</a>
+        </li>
+        <li>
+          <a href="/docs/security" class="navigation__item{% if page.path contains "security" %} navigation__item--active{% endif %}">Security</a>
+        </li>
+        <li>
+          <a href="/docs/compiling-assets" class="navigation__item{% if page.path contains "compiling-assets" %} navigation__item--active{% endif %}">Compiling Assets</a>
+        </li>
+        <li>
+          <a href="https://github.com/wordplate/wordplate" class="navigation__item">GitHub</a>
+        </li>
       </ul>
     </nav>
   </aside>
