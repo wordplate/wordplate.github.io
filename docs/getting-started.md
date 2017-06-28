@@ -5,6 +5,7 @@ title: Getting Started
 
 - [Installation](#installation)
 - [Configuration](#configuration)
+- [WordPress](#wordpress)
 
 ## Installation
 
@@ -39,7 +40,7 @@ Please visit [WordPlate's salt page](https://wordplate.github.io/salt) and copy 
 
 After installing WordPlate, you should configure your web server's document / web root to be the `public` directory. The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
 
-#### WordPress
+## WordPress
 
 WordPlate supports WordPress `4.8+` and comes with the latest version out of the box. If you want to specify an exact version of WordPress you may add it to your [`composer.json`](composer.json) file.
 
