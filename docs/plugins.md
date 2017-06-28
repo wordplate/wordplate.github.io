@@ -9,7 +9,7 @@ title: Plugins
 - [Example](#example)
 - [Autoloader](#autoloader)
 
-### Installation
+## Installation
 
 Require the desired plugin or theme using `wpackagist-plugin` or `wpackagist-theme` as the vendor name.
 

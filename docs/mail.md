@@ -13,4 +13,15 @@ Require the [mail package](https://github.com/wordplate/mail#readme), with [Comp
 $ composer require wordplate/mail
 ```
 
-Then update the credentials in your `.env` environment file with your SMTP keys and you're good to go. Please visit the [WordPress documentation](https://developer.wordpress.org/reference/hooks/phpmailer_init) to read more about the `phpmailer_init` action hook.
+Then update the credentials in your `.env` environment file with your SMTP keys.
+
+```
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+```
+
+Then login to the WordPress administrator dashboard and active the plugin.
+
+Please visit the [WordPress documentation](https://developer.wordpress.org/reference/hooks/phpmailer_init) to read more about the `phpmailer_init` action hook.
