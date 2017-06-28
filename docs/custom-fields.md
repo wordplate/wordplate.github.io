@@ -18,6 +18,4 @@ If you're like us and prefer to write your fields in PHP you should checkout out
 
 [Papi](https://wp-papi.github.io) has a different approach on how to work with fields and page types in WordPress. The idea is coming from how Page Type Builder in EPiServer works and has been loved by the developers.
 
-> Papi don't have a admin ui where you create your fields, it's done by code and that's how it should be.
->
-> Only the field value is saved in the database, no reference of what kind of field or something like that. You can start with a new database and already have all fields setup - [Papi](https://wp-papi.github.io)
+> Papi don't have a admin ui where you create your fields, it's done by code and that's how it should be - [Papi](https://wp-papi.github.io)
