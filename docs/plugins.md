@@ -6,22 +6,17 @@ title: Plugins
 [WordPress Packagist](https://wpackagist.org) comes straight out of the box with WordPlate. It mirrors the WordPress [plugin](https://plugins.svn.wordpress.org) and [theme](https://themes.svn.wordpress.org) directories as a Composer repository.
 
 - [Installation](#installation)
-- [Example](#example)
 - [Autoloader](#autoloader)
 
 ## Installation
 
-Require the desired plugin or theme using `wpackagist-plugin` or `wpackagist-theme` as the vendor name.
+Require the desired plugin or theme using `wpackagist-plugin` or `wpackagist-theme` as the vendor name. Packages are installed to `public/plugins`, `public/mu-plugins` or `public/themes`.
 
 ```bash
 $ composer require wpackagist-plugin/hide-updates
 ```
 
-Packages are installed to `public/plugins`, `public/mu-plugins` or `public/themes`.
-
-## Example
-
-This is an example of how your `composer.json` file might look like.
+This is an example of how your `composer.json` file might look like:
 
 ```json
 "require": {
