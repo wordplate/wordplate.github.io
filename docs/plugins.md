@@ -32,6 +32,8 @@ Please visit [WordPress Packagist](https://wpackagist.org) website for more info
 
 If you want to enable standard plugins to be required just like [must-use](https://codex.wordpress.org/Must_Use_Plugins) plugins in WordPlate, please see our [autoloader package](https://github.com/wordplate/autoloader#readme) for more information.
 
+> Must-use plugins (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled on all sites in the installation. Must-use plugins do not show in the default list of plugins on the Plugins page of wp-admin – although they do appear in a special Must-Use section – and cannot be disabled except by removing the plugin file from the must-use directory, which is found in public/mu-plugins by default - [WordPress](https://codex.wordpress.org/Must_Use_Plugins)
+
 ## Recommended
 
 Below we've put together a list of plugins we recommend using. If you've any suggestions of plugins we can add to this list, please let us know!
