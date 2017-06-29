@@ -7,7 +7,7 @@ title: Plugins
 
 - [Installation](#installation)
 - [Autoloader](#autoloader)
-- [Recommended Plugins](#recommended-plugins)
+- [Recommended](#recommended)
 
 ## Installation
 
@@ -32,7 +32,7 @@ Please visit [WordPress Packagist](https://wpackagist.org) website for more info
 
 If you want to enable standard plugins to be required just like [must-use](https://codex.wordpress.org/Must_Use_Plugins) plugins in WordPlate, please see our [autoloader package](https://github.com/wordplate/autoloader#readme) for more information.
 
-## Recommended Plugins
+## Recommended
 
 Below we've put together a list of plugins we recommend using. If you've any suggestions of plugins we can add to this list, please let us know!
 
