@@ -63,4 +63,4 @@ The [Hide Updates](https://wordpress.org/plugins/hide-updates) plugin hides upda
 
 ### Email Log
 
-[Email Log](https://sv.wordpress.org/plugins/email-log/) logs every email sent through WordPress and provides a UI where you can view them.
+[Email Log](https://wordpress.org/plugins/email-log/) logs every email sent through WordPress and provides a UI where you can view them.
