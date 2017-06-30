@@ -59,3 +59,8 @@ The [Hide Updates](https://wordpress.org/plugins/hide-updates) plugin hides upda
 ### WP Migrate DB
 
 [WP Migrate DB](https://wordpress.org/plugins/wp-migrate-db) exports your database as a MySQL data dump (much like phpMyAdmin), does a find and replace on URLs and file paths, handles serialized data, then allows you to save it to your computer as an SQL file. To complete the migration, you need to use a database management tool (e.g. phpMyAdmin) to import the SQL file to your database, replacing your existing database. It is perfect for developers who need to migrate fresh data from the production site to their local install, or migrate their locally developed site to a staging or production server.
+
+
+### Email Log
+
+[Email Log](https://wordpress.org/plugins/email-log/) logs every email sent through WordPress and provides a UI where you can view them.
