@@ -44,6 +44,10 @@ Below we've put together a list of plugins we recommend using. If you've any sug
 
 > Blade is the simple, yet powerful templating engine provided with Laravel. Unlike other popular PHP templating engines, Blade does not restrict you from using plain PHP code in your views. In fact, all Blade views are compiled into plain PHP code and cached until they are modified, meaning Blade adds essentially zero overhead to your application - [Laravel](https://laravel.com/docs/5.4/blade)
 
+### Disable Embeds
+
+[Disable Embeds](https://wordpress.org/plugins/disable-embeds) prevents others from embedding your site. Prevents you from embedding other non-whitelisted sites. Disables all JavaScript related to the feature.
+
 ### Email Log
 
 [Email Log](https://wordpress.org/plugins/email-log) logs every email sent through WordPress and provides a UI where you can view them. The logged emails will be stored in a separate table and can be viewed from the admin interface. While viewing the logs, the emails can be filtered or sorted based on the date, email, subject etc.
