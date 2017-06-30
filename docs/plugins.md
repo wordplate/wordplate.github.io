@@ -48,6 +48,10 @@ Below we've put together a list of plugins we recommend using. If you've any sug
 
 [Disable Embeds](https://wordpress.org/plugins/disable-embeds) prevents others from embedding your site. Prevents you from embedding other non-whitelisted sites. Disables all JavaScript related to the feature.
 
+### Disable Emojis
+
+The [Disable Emojis](https://wordpress.org/plugins/disable-emojis) plugin disables the new WordPress emoji functionality.
+
 ### Email Log
 
 [Email Log](https://wordpress.org/plugins/email-log) logs every email sent through WordPress and provides a UI where you can view them. The logged emails will be stored in a separate table and can be viewed from the admin interface. While viewing the logs, the emails can be filtered or sorted based on the date, email, subject etc.
