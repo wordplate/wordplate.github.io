@@ -17,14 +17,12 @@
 
   <link rel="shortcut icon" href="/assets/images/favicon.png">
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12500778-13"></script>
   <script>
-    !function(p,l,a,t,e){p.GoogleAnalyticsObject=a;p[a]||(p[a]=function(){
-    (p[a].q=p[a].q||[]).push(arguments)});p[a].l=+new Date;t=l.createElement('script');
-    e=l.scripts[0];t.src='https://www.google-analytics.com/analytics.js';
-    e.parentNode.insertBefore(t,e)}(window,document,'ga');
-
-    ga('create', 'UA-12500778-13', 'wordplate.github.io');
-    ga('send', 'pageview');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-12500778-13');
   </script>
 </head>
 <body class="page {{ page.class }}">
