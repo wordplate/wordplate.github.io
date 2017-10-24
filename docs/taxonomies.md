@@ -8,7 +8,7 @@ For [taxonomies](https://developer.wordpress.org/plugins/taxonomies) we recommen
 
 ## Installation
 
-Require the [mail package](https://github.com/wordplate/mail#readme), with [Composer](https://getcomposer.org), in the root directory of your project.
+Require the [extended-taxos package](https://github.com/johnbillion/extended-taxos#readme), with [Composer](https://getcomposer.org), in the root directory of your project.
 
 ```sh
 $ composer require johnbillion/extended-taxos
