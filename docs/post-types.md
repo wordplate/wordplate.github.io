@@ -7,7 +7,7 @@ For [custom post types](https://developer.wordpress.org/plugins/post-types/regis
 
 ## Installation
 
-Require the [mail package](https://github.com/wordplate/mail#readme), with [Composer](https://getcomposer.org), in the root directory of your project.
+Require the [extended-cpts package](https://github.com/johnbillion/extended-cpts#readme), with [Composer](https://getcomposer.org), in the root directory of your project.
 
 ```sh
 $ composer require johnbillion/extended-cpts
