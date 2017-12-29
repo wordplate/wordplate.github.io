@@ -9,4 +9,4 @@ Please visit the official [WordPress documentation](https://developer.wordpress.
 
 ## Plate
 
-[Plate](https://github.com/wordplate/plate#readme) is a plugin with a bunch of defaults to help you make the most out of WordPress. It comes with handy features such as cleaning up WordPress's administrator dashboard. It is required by default. Please visit [the documentation](https://github.com/wordplate/plate#readme) for more information.
+[Plate](https://github.com/wordplate/plate#readme) is a plugin with a bunch of defaults to help you make the most out of WordPress. It comes with handy features such as cleaning up WordPress's administrator dashboard. It is required by default but could easily be removed in the `composer.json` file. Visit [the documentation](https://github.com/wordplate/plate#readme) for more information.

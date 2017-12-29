@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Upgrade Guide
+redirect_from:
+  - /docs/upgrade-guide
 ---
 
 - [Upgrading from 5 to 6](#upgrading-from-5-to-6)

@@ -17,10 +17,8 @@ sass:
   style: compressed
   sass_dir: assets/styles
 
-gems:
+plugins:
   - jekyll-feed
-  - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jemoji

@@ -40,9 +40,9 @@ Below we've put together a list of plugins we recommend using. If you've any sug
 
 ### Bladerunner
 
-[Bladerunner](https://github.com/ekandreas/bladerunner) is plugin to integrate [Laravel's Blade templating](https://laravel.com/docs/5.4/blade) system in WordPress.
+[Bladerunner](https://github.com/ekandreas/bladerunner) is plugin to integrate [Laravel's Blade templating](https://laravel.com/docs/5.5/blade) system in WordPress.
 
-> Blade is the simple, yet powerful templating engine provided with Laravel. Unlike other popular PHP templating engines, Blade does not restrict you from using plain PHP code in your views. In fact, all Blade views are compiled into plain PHP code and cached until they are modified, meaning Blade adds essentially zero overhead to your application - [Laravel](https://laravel.com/docs/5.4/blade)
+> Blade is the simple, yet powerful templating engine provided with Laravel. Unlike other popular PHP templating engines, Blade does not restrict you from using plain PHP code in your views. In fact, all Blade views are compiled into plain PHP code and cached until they are modified, meaning Blade adds essentially zero overhead to your application - [Laravel](https://laravel.com/docs/5.5/blade)
 
 ### Disable Embeds
 
@@ -62,7 +62,7 @@ The [Hide Updates](https://wordpress.org/plugins/hide-updates) plugin hides upda
 
 ### Plate
 
-[Plate](https://github.com/wordplate/plate#readme) is a plugin with a bunch of defaults to help you make the most out of WordPress. It comes with handy features such as cleaning up WordPress's administrator dashboard. It is required by default in WordPlate.
+[Plate](https://github.com/wordplate/plate#readme) is a plugin with a bunch of defaults to help you make the most out of WordPress. It comes with handy features such as cleaning up WordPress's administrator dashboard. It is required by default but could easily be removed in the `composer.json` file. Visit [the documentation](https://github.com/wordplate/plate#readme) for more information.
 
 ### Soil
 

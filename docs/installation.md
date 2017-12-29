@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Getting Started
+title: Installation
+redirect_from:
+  - /docs/getting-started
 ---
 
 - [Installation](#installation)
@@ -9,11 +11,11 @@ title: Getting Started
 
 ## Installation
 
-To use WordPlate, you need to have PHP 7.0+ installed on your machine. You'll also optionally need [Node.js](https://nodejs.org/en) and [NPM](https://www.npmjs.com) installed if you want to use [Laravel Mix](https://laravel.com/docs/5.4/mix) to compile your CSS and Javascript.
+To use WordPlate, you need to have PHP 710+ installed on your machine. You'll also optionally need [Node.js](https://nodejs.org/en) and [NPM](https://www.npmjs.com) installed if you want to use [Laravel Mix](https://laravel.com/docs/5.5/mix) to compile your CSS and Javascript.
 
 Make sure your server meets the following requirements:
 
-- PHP >= 7.0
+- PHP >= 7.1
 - Mbstring PHP Extension
 
 Install WordPlate by issuing the Composer `create-project` command in your terminal:
@@ -24,7 +26,7 @@ $ composer create-project wordplate/wordplate
 
 #### Laravel Valet
 
-If you want to use [Laravel Valet](https://laravel.com/docs/5.4/valet) with WordPlate, [please see our local valet driver repository](https://github.com/wordplate/valet#readme).
+If you want to use [Laravel Valet](https://laravel.com/docs/5.5/valet) with WordPlate, [please see our local valet driver repository](https://github.com/wordplate/valet#readme).
 
 ## Configuration
 

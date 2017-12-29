@@ -1,48 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width">
-  <meta name="theme-color" content="#719ee5">
+---
+layout: default
+---
+<pre id="pre" style="padding-left: 20px;"></pre>
+<script>
+  'use strict';
 
-  <title>WordPlate - Salts</title>
+  const randomString = () => {
+    let arr = new Uint8Array(64 / 2);
 
-  <link rel="shortcut icon" href="/favicon.png">
+    window.crypto.getRandomValues(arr);
 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    return Array.from(arr, (dec) => {
+      return ('0' + dec.toString(16)).substr(-2);
+    }).join('');
+  }
 
-  ga('create', 'UA-12500778-13', 'auto');
-  ga('send', 'pageview');
-  </script>
-</head>
-<body>
-  <pre id="pre"></pre>
-  <script>
-    'use strict';
+  const pre = document.getElementById('pre');
 
-    const keys = ['AUTH_KEY', 'SECURE_AUTH_KEY', 'LOGGED_IN_KEY', 'NONCE_KEY', 'AUTH_SALT', 'SECURE_AUTH_SALT', 'LOGGED_IN_SALT', 'NONCE_SALT'];
+  const keys = ['AUTH_KEY', 'SECURE_AUTH_KEY', 'LOGGED_IN_KEY', 'NONCE_KEY', 'AUTH_SALT', 'SECURE_AUTH_SALT', 'LOGGED_IN_SALT', 'NONCE_SALT'];
 
-    function randomString() {
-      var text = '';
-      var possible = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-
-      for (var i = 0; i < 64; i++ ) {
-        text += possible.charAt(Math.floor(Math.random() * possible.length));
-      }
-
-      return text;
-    }
-
-    var pre = document.getElementById('pre')
-
-    for (var i = 0; i < keys.length; i++) {
-      pre.innerText += (keys[i] + "=" + randomString()) + "\n";
-    }
-  </script>
-</body>
-</html>
+  keys.forEach(key => {
+    pre.innerText += (key + "=" + randomString()) + "\n";
+  });
+</script>

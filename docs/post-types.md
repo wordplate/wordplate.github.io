@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Post Types
+redirect_from:
+  - /docs/taxonomies
 ---
 
-For [custom post types](https://developer.wordpress.org/plugins/post-types/registering-custom-post-types) we recommend looking at [Extended CPTs](https://github.com/johnbillion/extended-cpts#readme) by [John Blackbourn](https://github.com/johnbillion). The package provides extended functionality to WordPress custom post types, allowing developers to quickly build post types without having to write the same code again and again.
+For [custom post types](https://developer.wordpress.org/plugins/post-types/registering-custom-post-types) and [taxonomies](https://developer.wordpress.org/plugins/taxonomies) we recommend looking at [Extended CPTs](https://github.com/johnbillion/extended-cpts#readme) by [John Blackbourn](https://github.com/johnbillion). Extended CPTs is a library which provides extended functionality to WordPress custom post types and taxonomies. This allows developers to quickly build post types and taxonomies without having to write the same code again and again.
 
 ## Installation
 
@@ -13,16 +15,14 @@ Require the [extended-cpts package](https://github.com/johnbillion/extended-cpts
 $ composer require johnbillion/extended-cpts
 ```
 
-Then require the plugin in your `functions.php` file. You may use WordPlate's [`base_path`](/docs/helpers#base_path) helper function.
+Now you can register new custom post types and taxonomies with the `register_extended_post_type` and `register_extended_taxonomy` helper functions. 
 
 ```php
-require base_path('vendor/johnbillion/extended-cpts/extended-cpts.php');
-```
+add_action('init', function() {
+  register_extended_post_type('event');
 
-Now you can register new custom post types with the `register_extended_post_type` helper function.
-
-```php
-register_extended_post_type('event');
+  register_extended_taxonomy('location', 'event');
+});
 ```
 
 Visit the [documentation](https://github.com/johnbillion/extended-cpts#readme) to read more about the plugin.
