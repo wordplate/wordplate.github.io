@@ -11,7 +11,7 @@ WordPlate is developed openly on [GitHub](https://github.com/wordplate/wordplate
 
 - **Fast and simple.** No clutter, no bloat, no complex dependencies. WordPlate is built with PHP so it’s quick and easy to deploy.
 
-- **Powerful and extensible.** Customize, extend, and integrate WordPlate to suit your website. WordPlate’s architecture is flexible with great documentation.
+- **Powerful and extensible.** Customize, extend, and integrate WordPlate to suit your needs. WordPlate’s architecture is flexible and modern with great documentation.
 
 - **Free and open.** WordPlate is released under the [MIT license](https://github.com/wordplate/wordplate/blob/master/LICENSE).
 
