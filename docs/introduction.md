@@ -21,5 +21,5 @@ To give WordPlate a spin, go to the [Installation](docs/installation) page. You�
 
 ## Core Team
 
-- [Vincent Klaiber](https://vinkla.com) ([GitHub](http://github.com/vinkla), [Twitter](https://twitter.com/vinkla) – Core Developer
-- [Chris Andersson](https://puredazzle.se) ([GitHub](https://github.com/puredazzle), [Twitter](https://twitter.com/puredazzle) – Core Developer
+- [Vincent Klaiber](https://vinkla.com) ([GitHub](http://github.com/vinkla), [Twitter](https://twitter.com/vinkla)) – Core Developer
+- [Chris Andersson](https://puredazzle.se) ([GitHub](https://github.com/puredazzle), [Twitter](https://twitter.com/puredazzle)) – Core Developer
