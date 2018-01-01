@@ -7,4 +7,4 @@ This is the [WordPlate](https://wordplate.github.io/) website. Keeping it simple
 
 ## License
 
-This project is licensed under [The MIT License (MIT)](LICENSE).
+[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)
