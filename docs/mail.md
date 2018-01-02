@@ -24,4 +24,11 @@ MAIL_PASSWORD=null
 
 Then login to the WordPress administrator dashboard and active the plugin.
 
+Optionally you may also specify the global "from" address and name.
+
+```
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME=null
+```
+
 Please visit the [WordPress documentation](https://developer.wordpress.org/reference/hooks/phpmailer_init) to read more about the `phpmailer_init` action hook.
