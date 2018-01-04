@@ -20,6 +20,7 @@ MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
 MAIL_USERNAME=null
 MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
 ```
 
 Then login to the WordPress administrator dashboard and active the plugin.
