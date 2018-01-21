@@ -28,11 +28,32 @@ This is an example of how your `composer.json` file might look like:
 
 Please visit [WordPress Packagist](https://wpackagist.org) website for more information and examples.
 
-## Autoloader
+## Plugin Loader
 
-If you want to enable standard plugins to be required just like [must-use](https://codex.wordpress.org/Must_Use_Plugins) plugins in WordPlate, please see our [autoloader package](https://github.com/wordplate/autoloader#readme) for more information.
+With WordPlate you can enable standard plugins to be required just like [must-use](https://codex.wordpress.org/Must_Use_Plugins) plugins in WordPlate.
 
 > Must-use plugins (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled on all sites in the installation. Must-use plugins do not show in the default list of plugins on the Plugins page of wp-admin – although they do appear in a special Must-Use section – and cannot be disabled except by removing the plugin file from the must-use directory, which is found in public/mu-plugins by default - [WordPress](https://codex.wordpress.org/Must_Use_Plugins)
+
+Add the desired `mu-plugins` using `wpackagist-plugin` as the vendor name to `installer-paths` in your `composer.json` file.
+
+```json
+"extra": {
+    "installer-paths": {
+        "public/mu-plugins/{$name}": [
+            "type:wordpress-muplugin",
+            "wpackagist-plugin/hide-updates",
+        ]
+    }
+}
+```
+
+Require the desired plugin using `wpackagist-plugin` as the vendor name.
+
+```sh
+$ composer require wpackagist-plugin/hide-updates
+```
+
+The plugin is installed to the `public/mu-plugins` directory.
 
 ## Recommended
 
