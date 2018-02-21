@@ -61,9 +61,9 @@ Below we've put together a list of plugins we recommend using. If you've any sug
 
 ### Bladerunner
 
-[Bladerunner](https://github.com/ekandreas/bladerunner) is plugin to integrate [Laravel's Blade templating](https://laravel.com/docs/5.5/blade) system in WordPress.
+[Bladerunner](https://github.com/ekandreas/bladerunner) is plugin to integrate [Laravel's Blade templating](https://laravel.com/docs/5.6/blade) system in WordPress.
 
-> Blade is the simple, yet powerful templating engine provided with Laravel. Unlike other popular PHP templating engines, Blade does not restrict you from using plain PHP code in your views. In fact, all Blade views are compiled into plain PHP code and cached until they are modified, meaning Blade adds essentially zero overhead to your application - [Laravel](https://laravel.com/docs/5.5/blade)
+> Blade is the simple, yet powerful templating engine provided with Laravel. Unlike other popular PHP templating engines, Blade does not restrict you from using plain PHP code in your views. In fact, all Blade views are compiled into plain PHP code and cached until they are modified, meaning Blade adds essentially zero overhead to your application - [Laravel](https://laravel.com/docs/5.6/blade)
 
 ### Disable Embeds
 
