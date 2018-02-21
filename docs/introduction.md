@@ -15,7 +15,7 @@ The project is developed openly on [GitHub](https://github.com/wordplate/wordpla
 
 - **Powerful and extensible.** Customize, extend, and integrate WordPlate to suit your needs. WordPlate’s architecture is flexible and modern with great documentation.
 
-- **Must-use plugins.** WordPlate comes with a [must-use plugin](https://codex.wordpress.org/Must_Use_Plugins) loader out of the box. This means you can lock your plugins to a specefic version.
+- **Must-use plugins.** WordPlate comes with a [must-use plugin](https://codex.wordpress.org/Must_Use_Plugins) loader out of the box. This means you can lock your plugins to specific version.
 
 - **Free and open.** WordPlate is released under the [MIT license](https://github.com/wordplate/wordplate/blob/master/LICENSE).
 
