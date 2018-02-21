@@ -3,7 +3,7 @@ layout: page
 title: Introduction
 ---
 
-WordPlate is a free, open-source modern WordPress stack with a focus on simplicity. You can use WordPlate to easily develop WordPress websites with a modern stack. It simplifies the fuzziness around WordPress development.
+WordPlate is a free, open-source modern WordPress stack with a focus on simplicity. You can use it to easily develop WordPress websites with a modern stack. It simplifies the fuzziness around WordPress development.
 
 WordPlate is simply a wrapper around WordPress to make developers life easier. It is just like developing any WordPress website with [themes](https://developer.wordpress.org/themes) and [plugins](https://developer.wordpress.org/plugins).
 
