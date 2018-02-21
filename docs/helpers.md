@@ -18,8 +18,8 @@ Arrays | Strings | Miscellaneous | Paths
 [array_divide](https://laravel.com/docs/5.6/helpers#method-array-divide) | [e](https://laravel.com/docs/5.6/helpers#method-e) | [dd](https://laravel.com/docs/5.6/helpers#method-dd) | [stylesheet_path](#stylesheet_path)
 [array_dot](https://laravel.com/docs/5.6/helpers#method-array-dot) | [ends_with](https://laravel.com/docs/5.6/helpers#method-ends-with) | [dump](https://laravel.com/docs/5.6/helpers#method-dd) | [template_path](#template_path)
 [array_except](https://laravel.com/docs/5.6/helpers#method-array-except) | [snake_case](https://laravel.com/docs/5.6/helpers#method-snake-case) | [env](https://laravel.com/docs/5.6/helpers#method-env) |
-[array_first](https://laravel.com/docs/5.6/helpers#method-array-first) | [starts_with](https://laravel.com/docs/5.6/helpers#method-starts-with) | [info](#info) |
-[array_flatten](https://laravel.com/docs/5.6/helpers#method-array-flatten) | [str_after](https://laravel.com/docs/5.6/helpers#method-str-after) | [value](https://laravel.com/docs/5.6/helpers#method-value) |
+[array_first](https://laravel.com/docs/5.6/helpers#method-array-first) | [starts_with](https://laravel.com/docs/5.6/helpers#method-starts-with) | [value](https://laravel.com/docs/5.6/helpers#method-value) |
+[array_flatten](https://laravel.com/docs/5.6/helpers#method-array-flatten) | [str_after](https://laravel.com/docs/5.6/helpers#method-str-after) | |
 [array_forget](https://laravel.com/docs/5.6/helpers#method-array-forget) | [str_contains](https://laravel.com/docs/5.6/helpers#method-str-contains) | |
 [array_get](https://laravel.com/docs/5.6/helpers#method-array-get) | [str_finish](https://laravel.com/docs/5.6/helpers#method-str-finish) |  |
 [array_has](https://laravel.com/docs/5.6/helpers#method-array-has) | [str_is](https://laravel.com/docs/5.6/helpers#method-str-is) |  |
@@ -43,14 +43,6 @@ The `base_path()` function returns the fully qualified path to the project root.
 $path = base_path();
 
 $path = base_path('vendor/bin');
-```
-
-#### `info()`
-
-The `info()` function retrieves information about the current site. Shorthand for WordPress [`get_bloginfo()`](https://developer.wordpress.org/reference/functions/get_bloginfo) helper.
-
-```php
-$url = info('url');
 ```
 
 #### `stylesheet_path()`
