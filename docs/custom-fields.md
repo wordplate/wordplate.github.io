@@ -1,7 +1,10 @@
 ---
 layout: page
 title: Custom Fields
+image: https://user-images.githubusercontent.com/499192/34915298-1782a500-f924-11e7-85a7-dc7de6aacc14.png
 ---
+
+[![Advanced Custom Fields]({{page.image}})](https://github.com/wordplate/acf#readme)
 
 We're big fans of the [Advanced Custom Fields](http://www.advancedcustomfields.com) plugin by [Elliot Condon](https://www.elliotcondon.com/). Advanced Custom Fields is the perfect solution for any WordPress website which needs more flexible data like other content management systems.
 
