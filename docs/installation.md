@@ -38,6 +38,15 @@ Please visit [WordPlate's salt page](https://wordplate.github.io/salt) and copy 
 
 > If you're using WP-CLI and want to generate your salt keys on the CLI. Please see the [WP-CLI Dotenv helper](https://aaemnnost.tv/wp-cli-commands/dotenv) command by [Evan Mattson](https://github.com/aaemnnosttv).
 
+WordPlate ships with a log of default configuration for setting up new WordPress sites. Please see the [source code](https://github.com/wordplate/framework/blob/6e34056cb6f0b4d4070e72b1ffbeca8300b4de9a/src/Application.php#L69-L125) if you want to see what environment variables that exists in the framework.
+
+For example; if you want to force a custom address to your website you may add the environment variables `WP_HOME` and `WP_SITEURL` to the `.env` file.
+
+```
+WP_HOME=https://example.com
+WP_SITEURL=https://example.com
+```
+
 #### Public Directory
 
 After installing WordPlate, you should configure your web server's document / web root to be the `public` directory. The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
