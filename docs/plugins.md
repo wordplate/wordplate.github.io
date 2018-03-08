@@ -1,13 +1,9 @@
 ---
 layout: page
-title: WordPress Packagist
-redirect_from:
-  - /docs/plugins
+title: Plugins
 ---
 
 [WordPress Packagist](https://wpackagist.org) comes straight out of the box with WordPlate. It mirrors the WordPress [plugin](https://plugins.svn.wordpress.org) and [theme](https://themes.svn.wordpress.org) directories as a Composer repository.
-
-> **Tip:** If you're using plugins which is required for your website to work you should definitely check out WordPlate's [plugin loader](/docs/plugin-loader).
 
 ## Installation
 
@@ -27,6 +23,8 @@ This is an example of how your `composer.json` file might look like:
 ```
 
 Please visit [WordPress Packagist](https://wpackagist.org) website for more information and examples.
+
+> **Tip:** If you're using plugins which is required for your website to work you should definitely check out WordPlate's [plugin loader](/docs/plugin-loader).
 
 ## Recommended
 
