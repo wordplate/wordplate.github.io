@@ -23,7 +23,9 @@ The project is developed openly on [GitHub](https://github.com/wordplate/wordpla
 
 To give WordPlate a spin, go to the [Installation](docs/installation) page. You’ll need a server with PHP 7.1+ and MySQL 5.5+.
 
-## Core Team
+## Developers
 
-- [Vincent Klaiber](https://vinkla.com) ([GitHub](http://github.com/vinkla), [Twitter](https://twitter.com/vinkla)) – Core Developer
-- [Chris Andersson](https://puredazzle.se) ([GitHub](https://github.com/puredazzle), [Twitter](https://twitter.com/puredazzle)) – Core Developer
+- [Vincent Klaiber](http://github.com/vinkla)
+- [Chris Andersson](https://github.com/puredazzle)
+- [Daniel Gerdgren](https://github.com/tditlu)
+- [Oskar Joelson](https://github.com/fiskhandlarn)
