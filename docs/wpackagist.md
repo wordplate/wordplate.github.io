@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Plugins
+title: WordPress Packagist
+redirect_from:
+  - /docs/plugins
 ---
 
 [WordPress Packagist](https://wpackagist.org) comes straight out of the box with WordPlate. It mirrors the WordPress [plugin](https://plugins.svn.wordpress.org) and [theme](https://themes.svn.wordpress.org) directories as a Composer repository.
 
-- [Installation](#installation)
-- [Autoloader](#autoloader)
-- [Recommended](#recommended)
+> **Tip:** If you're using plugins which is required for your website to work you should definitely check out WordPlate's [plugin loader](/docs/plugin-loader).
 
 ## Installation
 
@@ -27,33 +27,6 @@ This is an example of how your `composer.json` file might look like:
 ```
 
 Please visit [WordPress Packagist](https://wpackagist.org) website for more information and examples.
-
-## Plugin Loader
-
-With WordPlate you can enable standard plugins to be required just like [must-use](https://codex.wordpress.org/Must_Use_Plugins) plugins.
-
-> Must-use plugins (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled on all sites in the installation - [WordPress](https://codex.wordpress.org/Must_Use_Plugins)
-
-Add the desired `mu-plugins` using `wpackagist-plugin` as the vendor name to `installer-paths` in your `composer.json` file.
-
-```json
-"extra": {
-    "installer-paths": {
-        "public/mu-plugins/{$name}": [
-            "type:wordpress-muplugin",
-            "wpackagist-plugin/hide-updates",
-        ]
-    }
-}
-```
-
-Require the desired plugin using `wpackagist-plugin` as the vendor name.
-
-```sh
-$ composer require wpackagist-plugin/hide-updates
-```
-
-The plugin is installed to the `public/mu-plugins` directory.
 
 ## Recommended
 
