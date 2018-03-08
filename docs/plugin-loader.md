@@ -28,4 +28,4 @@ $ composer require wpackagist-plugin/hide-updates
 
 The plugin is installed to the `public/mu-plugins` directory. 
 
-If you want to read more about [WordPress Packagist](https://wpackagist.org) and plugins in WordPlate, please see the [plugins page](/docs/wpackagist).
+If you want to read more about plugins in WordPlate, please see the [plugins page](/docs/plugins).
