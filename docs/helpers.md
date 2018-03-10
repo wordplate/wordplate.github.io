@@ -68,20 +68,20 @@ WordPlate support both Laravel's [collections](https://laravel.com/docs/5.6/coll
 #### Miscellaneous
 
 <ul class="columns">
-  <li><a href="https://laravel.com/docs/5.6/helpers#blank">blank</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#class-uses-recursive">class_uses_recursive</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-blank">blank</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-class-uses-recursive">class_uses_recursive</a></li>
   <li><a href="https://laravel.com/docs/5.6/helpers#method-collect">collect</a></li>
   <li><a href="https://laravel.com/docs/5.6/helpers#method-dd">dd</a></li>
   <li><a href="https://laravel.com/docs/5.6/helpers#method-dump">dump</a></li>
   <li><a href="https://laravel.com/docs/5.6/helpers#method-env">env</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#filled">filled</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#optional">optional</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#retry">retry</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#tap">tap</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#throw-if">throw_if</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#throw-unless">throw_unless</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#trait-uses-recursive">trait_uses_recursive</a></li>
-  <li><a href="https://laravel.com/docs/5.6/helpers#transform">transform</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-filled">filled</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-optional">optional</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-retry">retry</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-tap">tap</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-throw-if">throw_if</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-throw-unless">throw_unless</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-trait-uses-recursive">trait_uses_recursive</a></li>
+  <li><a href="https://laravel.com/docs/5.6/helpers#method-transform">transform</a></li>
   <li><a href="https://laravel.com/docs/5.6/helpers#method-value">value</a></li>
 </ul>
 
