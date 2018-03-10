@@ -7,7 +7,7 @@ WordPlate includes a variety of "helper" PHP functions. You are free to use them
 
 WordPlate support both Laravel's [collections](https://laravel.com/docs/5.6/collections) and [helper methods](https://laravel.com/docs/5.6/helpers#available-methods). This means you can use great debugging methods such as [`dd()`](https://laravel.com/docs/5.6/helpers#method-dd) and string helpers like [`str_contains()`](https://laravel.com/docs/5.6/helpers#method-str-contains).
 
-## Arrays & Objects
+#### Arrays & Objects
  
 <ul class="columns">
   <li><a href="https://laravel.com/docs/5.6/helpers#method-array-add">array_add</a></li>
@@ -38,7 +38,7 @@ WordPlate support both Laravel's [collections](https://laravel.com/docs/5.6/coll
   <li><a href="https://laravel.com/docs/5.6/helpers#object-get">object_get</a></li>
 </ul>
 
-## Strings
+#### Strings
 
 <ul class="columns">
   <li><a href="https://laravel.com/docs/5.6/helpers#method-camel-case">camel_case</a></li>
@@ -65,7 +65,7 @@ WordPlate support both Laravel's [collections](https://laravel.com/docs/5.6/coll
   <li><a href="https://laravel.com/docs/5.6/helpers#method-title-case">title_case</a></li>
 </ul>
 
-## Miscellaneous
+#### Miscellaneous
 
 <ul class="columns">
   <li><a href="https://laravel.com/docs/5.6/helpers#blank">blank</a></li>
@@ -85,7 +85,7 @@ WordPlate support both Laravel's [collections](https://laravel.com/docs/5.6/coll
   <li><a href="https://laravel.com/docs/5.6/helpers#method-value">value</a></li>
 </ul>
 
-## Paths
+#### Paths
 
 <ul class="columns">
   <li><a href="https://laravel.com/docs/5.6/helpers#method-asset">asset</a></li>
