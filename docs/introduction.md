@@ -23,6 +23,8 @@ The project is developed openly on [GitHub](https://github.com/wordplate/wordpla
 
 To give WordPlate a spin, go to the [Installation](docs/installation) page. You’ll need a server with PHP 7.1+ and MySQL 5.5+.
 
+{% include youtube.html %}
+
 ## Developers
 
 - [Vincent Klaiber](http://github.com/vinkla)
