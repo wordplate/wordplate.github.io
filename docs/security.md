@@ -7,4 +7,8 @@ WordPlate makes your WordPress site more secure out of the box. WordPlate comes 
 
 We recommend taking a look at the [Soil plugin](https://roots.io/plugins/soil) by [Roots](https://roots.io). It is a WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications. The plugin also address some security concerns for WordPress themes.
 
-We suggest [reading this article](https://premium.wpmudev.org/blog/keeping-wordpress-secure-the-ultimate-guide) to learn more about [theme security](https://developer.wordpress.org/themes/theme-security) in WordPress.
+We suggest reading the following resources to learn more about security in WordPress:
+
+- [Best Practices - Security](https://10up.github.io/Engineering-Best-Practices/php/#security) - 10up
+- [The Ultimate Guide to WordPress Security](https://premium.wpmudev.org/blog/ultimate-guide-wordpress-security) - WPMU DEV
+- [Theme Security](https://developer.wordpress.org/themes/theme-security) - WordPress
