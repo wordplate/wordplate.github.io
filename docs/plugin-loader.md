@@ -7,6 +7,8 @@ With WordPlate you can enable standard plugins to be required just like [must-us
 
 > Must-use plugins (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled on all sites in the installation - [WordPress](https://codex.wordpress.org/Must_Use_Plugins)
 
+{% include youtube.html %}
+
 Add the desired `mu-plugins` using `wpackagist-plugin` as the vendor name to `installer-paths` in your `composer.json` file.
 
 ```json

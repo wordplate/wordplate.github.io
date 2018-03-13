@@ -220,3 +220,26 @@ footer { font-size: .75em; }
     color: #fff;
   }
 }
+
+.youtube {
+  background-color: #4d9dff;
+  color: #fff;
+  padding: 15px 20px 0;
+  margin-bottom: 15px;
+  display: flex;
+  border-radius: 3px;
+  justify-content: space-between;
+  font-size: 15px;
+
+  svg {
+    width: 40px;
+    margin-right: 10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+
+    &:hover { text-decoration: none; }
+  }
+}
