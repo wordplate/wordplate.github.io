@@ -20,7 +20,6 @@ layout: default
 
   field.addEventListener('focus', () => field.select());
   field.addEventListener('mouseup', () => false);
-  field.addEventListener('keypress', () => false);
 
   keys.forEach(key => {
     field.innerHTML += (key + "=" + randomString()) + "\n";
