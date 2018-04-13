@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<textarea id="field" rows="8"></textarea>
+<textarea class="salt-text" rows="8"></textarea>
 <script>
   'use strict';
 
@@ -15,7 +15,7 @@ layout: default
     }).join('');
   }
 
-  const field = document.getElementById('field');
+  const field = document.querySelector('.salt-text');
   const keys = ['AUTH_KEY', 'SECURE_AUTH_KEY', 'LOGGED_IN_KEY', 'NONCE_KEY', 'AUTH_SALT', 'SECURE_AUTH_SALT', 'LOGGED_IN_SALT', 'NONCE_SALT'];
 
   field.addEventListener('focus', function() {
