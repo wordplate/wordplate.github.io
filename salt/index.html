@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<textarea class="salt-text" rows="8"></textarea>
+<textarea class="salt-text" rows="8" autofocus readonly></textarea>
 <script>
   'use strict';
 
@@ -18,11 +18,9 @@ layout: default
   const field = document.querySelector('.salt-text');
   const keys = ['AUTH_KEY', 'SECURE_AUTH_KEY', 'LOGGED_IN_KEY', 'NONCE_KEY', 'AUTH_SALT', 'SECURE_AUTH_SALT', 'LOGGED_IN_SALT', 'NONCE_SALT'];
 
-  field.addEventListener('focus', function() {
-    this.select();
-  });
-
+  field.addEventListener('focus', () => field.select());
   field.addEventListener('mouseup', () => false);
+  field.addEventListener('keypress', () => false);
 
   keys.forEach(key => {
     field.innerHTML += (key + "=" + randomString()) + "\n";

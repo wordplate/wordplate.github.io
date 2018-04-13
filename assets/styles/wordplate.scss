@@ -249,10 +249,11 @@ footer { font-size: .75em; }
   height: 100%;
   width: 100%;
   font-family: monospace;
-  font-size: 1em;
+  font-size: 16px;
+  line-height: 24px;
   white-space: pre;
   margin: 0;
-  padding: 1em 0 1em 1em;
+  padding: 16px 0 16px 16px;
   border: 0 none;
 
   &:focus {
