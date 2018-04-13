@@ -19,6 +19,7 @@ layout: default
   const keys = ['AUTH_KEY', 'SECURE_AUTH_KEY', 'LOGGED_IN_KEY', 'NONCE_KEY', 'AUTH_SALT', 'SECURE_AUTH_SALT', 'LOGGED_IN_SALT', 'NONCE_SALT'];
 
   field.addEventListener('focus', () => field.select());
+  field.addEventListener('click', () => field.select());
   field.addEventListener('mouseup', () => false);
 
   keys.forEach(key => {
