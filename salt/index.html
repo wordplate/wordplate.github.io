@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<pre id="pre" style="padding-left: 20px;"></pre>
+<textarea id="field" rows="8"></textarea>
 <script>
   'use strict';
 
@@ -15,11 +15,16 @@ layout: default
     }).join('');
   }
 
-  const pre = document.getElementById('pre');
-
+  const field = document.getElementById('field');
   const keys = ['AUTH_KEY', 'SECURE_AUTH_KEY', 'LOGGED_IN_KEY', 'NONCE_KEY', 'AUTH_SALT', 'SECURE_AUTH_SALT', 'LOGGED_IN_SALT', 'NONCE_SALT'];
 
+  field.addEventListener('focus', function() {
+    this.select();
+  });
+
+  field.addEventListener('mouseup', () => false);
+
   keys.forEach(key => {
-    pre.innerText += (key + "=" + randomString()) + "\n";
+    field.innerHTML += (key + "=" + randomString()) + "\n";
   });
 </script>

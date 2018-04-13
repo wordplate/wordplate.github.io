@@ -243,3 +243,19 @@ footer { font-size: .75em; }
     &:hover { text-decoration: none; }
   }
 }
+
+.salt-text {
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-family: monospace;
+  font-size: 1em;
+  white-space: pre;
+  margin: 0;
+  padding: 1em 0 1em 1em;
+  border: 0 none;
+
+  &:focus {
+    outline: 0 none;
+  }
+}
