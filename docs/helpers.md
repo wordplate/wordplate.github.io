@@ -117,6 +117,20 @@ The `stylesheet_path()` function returns the fully qualified path for the curren
 $path = stylesheet_path();
 
 $path = stylesheet_path('components/article.php');
+
+// /var/www/public/wp-content/themes/twentyseventeen-child/components/article.php
+```
+
+#### `stylesheet_url()`
+
+The `stylesheet_url()` function returns the stylesheet directory URI for the current theme/child theme.
+
+```php
+$path = stylesheet_url();
+
+$path = stylesheet_url('img/photo.jpg');
+
+// http://example.com/wp-content/themes/twentyseventeen-child/img/photo.jpg
 ```
 
 #### `template_path()`
@@ -127,4 +141,18 @@ The `template_path()` function returns the fully qualified path to the current t
 $path = template_path();
 
 $path = template_path('components/article.php');
+
+// /var/www/public/wp-content/themes/twentyseventeen/components/article.php
+```
+
+#### `template_url()`
+
+The `template_url()` function returns the the current theme directory URI or to the parent theme if a child theme is being used.
+
+```php
+$path = template_url();
+
+$path = template_url('img/photo.jpg');
+
+// http://example.com/wp-content/themes/twentyseventeen/img/photo.jpg
 ```
