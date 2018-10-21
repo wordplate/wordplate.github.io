@@ -19,49 +19,34 @@ This is an example of how your `composer.json` file might look like:
 
 ```json
 "require": {
-    "wordplate/framework": "^6.0",
+    "wordplate/framework": "^7.0",
     "wpackagist-plugin/hide-updates": "^1.0"
 },
 ```
 
 Please visit [WordPress Packagist](https://wpackagist.org) website for more information and examples.
 
-> **Tip:** If you're using plugins which is required for your website to work you should definitely check out WordPlate's [plugin loader](/docs/plugin-loader).
+> _**Tip:** If you're using plugins which is required for your website to work you should definitely check out WordPlate's [plugin loader](/docs/plugin-loader)._
 
 ## Recommended
 
 Below we've put together a list of plugins we recommend using. If you've any suggestions of plugins we can add to this list, please let us know!
 
-### Bladerunner
+#### WordPlate Plugins
 
-[Bladerunner](https://github.com/ekandreas/bladerunner) is plugin to integrate [Laravel's Blade templating](https://laravel.com/docs/5.6/blade) system in WordPress.
+- **ACF** - The [plugin](https://github.com/wordplate/acf#readme) allows you to register your custom fields using ACF and PHP.
+- **BEM** - The [plugin](https://github.com/wordplate/bem#readme) updates WordPress navigation menu classes to use BEM methodology.
+- **Mail** - The [plugin](https://github.com/wordplate/mail#readme) allows you to register custom SMTP credentials through the environment file.
+- **Plate** - The [plugin](https://github.com/wordplate/plate#readme) cleans up the WordPress dashboard features your client doesn't use.
 
-> Blade is the simple, yet powerful templating engine provided with Laravel. Unlike other popular PHP templating engines, Blade does not restrict you from using plain PHP code in your views. In fact, all Blade views are compiled into plain PHP code and cached until they are modified, meaning Blade adds essentially zero overhead to your application - [Laravel](https://laravel.com/docs/5.6/blade)
+#### Third-party Plugins
 
-### Disable Embeds
+- **Bladerunner** - The [plugin](https://github.com/ekandreas/bladerunner#readme) integrates [Laravel’s Blade](https://laravel.com/docs/5.7/blade) templating system in WordPress.
+- **Disable Embeds** - The [plugin](https://wordpress.org/plugins/disable-embeds) prevents others from embedding your site.
+- **Disable Emojis** - The [plugin](https://wordpress.org/plugins/disable-emojis) disables the new WordPress emoji functionality.
+- **Email Log** - The [plugin](https://wordpress.org/plugins/email-log) that allows you to log and view all emails sent from WordPress.
+- **Hide Updates** - The [plugin](https://wordpress.org/plugins/hide-updates) hides update notices for updates in WordPress.
+- **Soil** - The [plugin](https://roots.io/plugins/soil) contains a collection of modules to apply theme-agnostic front-end modifications.
+- **WP Migrate DB** - The [plugin](https://wordpress.org/plugins/wp-migrate-db) help you export your database as a MySQL data dump.
 
-[Disable Embeds](https://wordpress.org/plugins/disable-embeds) prevents others from embedding your site. Prevents you from embedding other non-whitelisted sites. Disables all JavaScript related to the feature.
-
-### Disable Emojis
-
-The [Disable Emojis](https://wordpress.org/plugins/disable-emojis) plugin disables the new WordPress emoji functionality.
-
-### Email Log
-
-[Email Log](https://wordpress.org/plugins/email-log) logs every email sent through WordPress and provides a UI where you can view them. The logged emails will be stored in a separate table and can be viewed from the admin interface. While viewing the logs, the emails can be filtered or sorted based on the date, email, subject etc.
-
-### Hide Updates
-
-The [Hide Updates](https://wordpress.org/plugins/hide-updates) plugin hides update notices for core, plugin, and theme updates in WordPress admin for all users except super admins. It’s useful for agencies or developers who take care of updates and maintenance of a client’s site and wants to hide the notices for other users. Super admins are not affected by this plugin and will continue to see all the updates.
-
-### Plate
-
-[Plate](https://github.com/wordplate/plate#readme) is a plugin with a bunch of defaults to help you make the most out of WordPress. It comes with handy features such as cleaning up WordPress's administrator dashboard. It is required by default but could easily be removed in the `composer.json` file. Visit [the documentation](https://github.com/wordplate/plate#readme) for more information.
-
-### Soil
-
-[Soil](https://roots.io/plugins/soil) is a WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications.
-
-### WP Migrate DB
-
-[WP Migrate DB](https://wordpress.org/plugins/wp-migrate-db) exports your database as a MySQL data dump (much like phpMyAdmin), does a find and replace on URLs and file paths, handles serialized data, then allows you to save it to your computer as an SQL file. To complete the migration, you need to use a database management tool (e.g. phpMyAdmin) to import the SQL file to your database, replacing your existing database. It is perfect for developers who need to migrate fresh data from the production site to their local install, or migrate their locally developed site to a staging or production server.
+If you know of a plugin which would fit on this list, please [open an issue](https://github.com/wordplate/wordplate.githu.io) on GitHub!

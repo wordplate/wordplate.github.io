@@ -3,9 +3,10 @@ layout: page
 title: Installation
 redirect_from:
   - /docs/getting-started
+  - /docs/theming
 ---
 
-To use WordPlate, you need to have PHP 7.1.3+ installed on your machine. You'll also optionally need [Node.js](https://nodejs.org/en) and [NPM](https://www.npmjs.com) installed if you want to use [Laravel Mix](https://laravel.com/docs/5.6/mix) to compile your CSS and Javascript.
+To use WordPlate, you need to have PHP 7.1.3+ installed on your machine. You'll also optionally need [Node.js](https://nodejs.org/en) and [NPM](https://www.npmjs.com) installed if you want to use [Laravel Mix](https://laravel.com/docs/5.7/mix) to compile your CSS and Javascript.
 
 {% include youtube.html %}
 
@@ -22,7 +23,7 @@ $ composer create-project wordplate/wordplate
 
 #### Laravel Valet
 
-If you want to use [Laravel Valet](https://laravel.com/docs/5.6/valet) with WordPlate, [please see our local valet driver repository](https://github.com/wordplate/valet#readme).
+If you want to use [Laravel Valet](https://laravel.com/docs/5.7/valet) with WordPlate, [please see our local valet driver repository](https://github.com/wordplate/valet#readme).
 
 ## Configuration
 
@@ -49,12 +50,18 @@ After installing WordPlate, you should configure your web server's document / we
 
 ## WordPress
 
-WordPlate supports WordPress `4+` and comes with the latest version out of the box. If you want to specify an exact version of WordPress you may add it to your [`composer.json`](composer.json) file.
+WordPlate supports WordPress `5.+` and comes with the latest version out of the box. If you want to specify an exact version of WordPress you may add it to your [`composer.json`](composer.json) file.
 
 ```json
 "require": {
-  "johnpbloch/wordpress": "4.9.4"
+  "johnpbloch/wordpress": "5.0.1"
 }
 ```
 
 This way you can lock the WordPress version number to the one you're working with. This could come in handy if you're opening your project six months from now and WordPress has released a new version with breaking changes.
+
+## Theming
+
+Building themes with WordPlate works like any other WordPress environment. All available WordPress classes and helper functions are available in WordPlate as well. 
+
+Please visit the official [WordPress documentation](https://developer.wordpress.org/themes) to read more about theming in WordPress.

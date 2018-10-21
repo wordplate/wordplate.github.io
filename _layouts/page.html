@@ -14,18 +14,16 @@ image: https://cloud.githubusercontent.com/assets/499192/24309675/09eec350-10cd-
       <ul>
         <li><a href="/docs/introduction" class="navigation__item{% if page.path contains "introduction" %} navigation__item--active{% endif %}">Introduction</a></li>
         <li><a href="/docs/installation" class="navigation__item{% if page.path contains "installation" %} navigation__item--active{% endif %}">Installation</a></li>
-        <li><a href="/docs/theming" class="navigation__item{% if page.path contains "theming" %} navigation__item--active{% endif %}">Theming</a></li>
         <li><a href="/docs/plugins" class="navigation__item{% if page.path contains "plugins" %} navigation__item--active{% endif %}">Plugins</a></li>
         <li><a href="/docs/plugin-loader" class="navigation__item{% if page.path contains "plugin-loader" %} navigation__item--active{% endif %}">Plugin Loader</a></li>
         <li><a href="/docs/languages" class="navigation__item{% if page.path contains "languages" %} navigation__item--active{% endif %}">Languages</a></li>
-        <li><a href="/docs/mail" class="navigation__item{% if page.path contains "mail" %} navigation__item--active{% endif %}">Mail</a></li>
-        <li><a href="/docs/custom-fields" class="navigation__item{% if page.path contains "custom-fields" %} navigation__item--active{% endif %}">Custom Fields</a></li>
         <li><a href="/docs/post-types" class="navigation__item{% if page.path contains "post-types" %} navigation__item--active{% endif %}">Post Types</a></li>
         <li><a href="/docs/helpers" class="navigation__item{% if page.path contains "helpers" %} navigation__item--active{% endif %}">Helpers</a></li>
         <li><a href="/docs/security" class="navigation__item{% if page.path contains "security" %} navigation__item--active{% endif %}">Security</a></li>
-        <li><a href="/docs/mix" class="navigation__item{% if page.path contains "mix" %} navigation__item--active{% endif %}">Laravel Mix</a></li>
         <li><a href="/docs/upgrade" class="navigation__item{% if page.path contains "upgrade" %} navigation__item--active{% endif %}">Upgrade Guide</a></li>
-        <li><a href="https://github.com/wordplate/wordplate#readme" class="navigation__item">GitHub</a></li>
+
+        <li><a href="https://laravel.com/docs/5.7/mix" class="navigation__item navigation__item--external">Laravel Mix</a></li>
+        <li><a href="https://github.com/wordplate/wordplate#readme" class="navigation__item navigation__item--external">GitHub</a></li>
       </ul>
     </nav>
   </aside>
@@ -49,6 +47,6 @@ image: https://cloud.githubusercontent.com/assets/499192/24309675/09eec350-10cd-
   const headings = document.querySelectorAll('.markdown-body h2, .markdown-body h3, .markdown-body h4');
 
   headings.forEach(heading => heading.addEventListener('click', event => {
-    window.location = `#${event.target.id}`;
+    window.location = `#${event.currentTarget.id}`;
   }));
 </script>

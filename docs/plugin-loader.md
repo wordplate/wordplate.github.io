@@ -5,7 +5,7 @@ title: Plugin Loader
 
 With WordPlate you can enable standard plugins to be required just like [must-use](https://codex.wordpress.org/Must_Use_Plugins) plugins.
 
-> Must-use plugins (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled on all sites in the installation - [WordPress](https://codex.wordpress.org/Must_Use_Plugins)
+> _Must-use plugins (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled on all sites in the installation - [WordPress](https://codex.wordpress.org/Must_Use_Plugins)_
 
 {% include youtube.html %}
 

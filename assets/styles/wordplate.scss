@@ -106,6 +106,13 @@ aside {
       background-color: #f6f8fa;
     }
 
+    .navigation__item--external {
+      background-image: url(../images/link-external.svg);
+      background-repeat: no-repeat;
+      background-position: right 20px center;
+      background-size: 12px;
+    }
+
     li:last-child a {
       border-bottom: 0;
     }
