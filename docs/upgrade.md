@@ -5,7 +5,7 @@ redirect_from:
   - /docs/upgrade-guide
 ---
 
-## Upgrading from 6 to 7 (unreleased)
+## Upgrading from 6 to 7
 
 If you want to upgrade from WordPlate 5 to 6 you can follow this guide.
 
