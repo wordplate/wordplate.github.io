@@ -10,10 +10,8 @@ layout: default
 
     window.crypto.getRandomValues(arr);
 
-    return Array.from(arr, dec => {
-      return ('0' + dec.toString(16)).substr(-2);
-    }).join('');
-  }
+    return Array.from(arr, dec => ('0' + dec.toString(16)).substr(-2)).join('');
+  };
 
   const field = document.querySelector('.salt-text');
   const keys = ['AUTH_KEY', 'SECURE_AUTH_KEY', 'LOGGED_IN_KEY', 'NONCE_KEY', 'AUTH_SALT', 'SECURE_AUTH_SALT', 'LOGGED_IN_SALT', 'NONCE_SALT'];
@@ -22,7 +20,5 @@ layout: default
   field.addEventListener('click', () => field.select());
   field.addEventListener('mouseup', () => false);
 
-  keys.forEach(key => {
-    field.innerHTML += (key + "=" + randomString()) + "\n";
-  });
+  keys.forEach(key => field.innerHTML += `${key}=${randomString()}\n`);
 </script>
