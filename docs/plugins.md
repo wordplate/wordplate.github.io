@@ -49,4 +49,4 @@ Below we've put together a list of plugins we recommend using. If you've any sug
 - **Soil** - The [plugin](https://roots.io/plugins/soil) contains a collection of modules to apply theme-agnostic front-end modifications.
 - **WP Migrate DB** - The [plugin](https://wordpress.org/plugins/wp-migrate-db) help you export your database as a MySQL data dump.
 
-If you know of a plugin which would fit on this list, please [open an issue](https://github.com/wordplate/wordplate.githu.io) on GitHub!
+If you know of a plugin which would fit on this list, please [open an issue](https://github.com/wordplate/wordplate.github.io) on GitHub!
