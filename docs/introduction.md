@@ -11,7 +11,7 @@ The project is developed openly on [GitHub](https://github.com/wordplate/wordpla
 
 #### Getting Started
 
-To give WordPlate a spin, go to the [Installation](docs/installation) page. You’ll need a server with PHP 7.1+ and MySQL 5.5+.
+To give WordPlate a spin, go to the [Installation](docs/installation) page. You'll need a server with PHP 7.1+ and MySQL 5.5+.
 
 {% include youtube.html %}
 
@@ -33,9 +33,9 @@ To give WordPlate a spin, go to the [Installation](docs/installation) page. You�
 
 ## Goals
 
-- **Fast and simple.** No clutter, no bloat, no complex dependencies. WordPlate is built with PHP so it’s quick and easy to deploy.
+- **Fast and simple.** No clutter, no bloat, no complex dependencies. WordPlate is built with PHP so it's quick and easy to deploy.
 
-- **Powerful and extensible.** Customize, extend, and integrate WordPlate to suit your needs. WordPlate’s architecture is flexible and modern and comes with great documentation.
+- **Powerful and extensible.** Customize, extend, and integrate WordPlate to suit your needs. WordPlate's architecture is flexible and modern and comes with great documentation.
 
 - **Free and open.** WordPlate is released under the [MIT license](https://github.com/wordplate/wordplate/blob/master/LICENSE).
 
