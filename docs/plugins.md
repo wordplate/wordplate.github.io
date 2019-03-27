@@ -41,7 +41,7 @@ Below we've put together a list of plugins we recommend using. If you've any sug
 
 #### Third-party Plugins
 
-- **Bladerunner** - The [plugin](https://github.com/ekandreas/bladerunner#readme) integrates [Laravel’s Blade](https://laravel.com/docs/5.7/blade) templating system in WordPress.
+- **Blade** - The [plugin](https://github.com/fiskhandlarn/blade) integrates [Laravel's Blade](https://laravel.com/docs/5.7/blade) templating system in WordPress.
 - **Disable Embeds** - The [plugin](https://wordpress.org/plugins/disable-embeds) prevents others from embedding your site.
 - **Disable Emojis** - The [plugin](https://wordpress.org/plugins/disable-emojis) disables the new WordPress emoji functionality.
 - **Email Log** - The [plugin](https://wordpress.org/plugins/email-log) that allows you to log and view all emails sent from WordPress.
