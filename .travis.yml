@@ -1,5 +1,0 @@
-language: ruby
-
-sudo: required
-
-script: bundle exec jekyll build

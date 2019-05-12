@@ -8,8 +8,11 @@ WordPlate is simply a wrapper around WordPress to make developers life easier. I
 
 The project is developed openly on [GitHub](https://github.com/wordplate/wordplate), feel free to contribute!
 
-[![Build Status](https://img.shields.io/travis/wordplate/wordplate.github.io/master.svg?style=flat)](https://travis-ci.org/wordplate/wordplate.github.io)
-[![License](https://img.shields.io/github/license/wordplate/wordplate.github.io.svg?style=flat)](https://github.com/wordplate/wordplate.github.io/blob/master/LICENSE)
+[![Build Status](https://badgen.net/travis/wordplate/framework/master)](https://travis-ci.org/wordplate/framework)
+[![Coverage Status](https://badgen.net/codecov/c/github/wordplate/framework)](https://codecov.io/github/wordplate/framework)
+[![Total Downloads](https://badgen.net/packagist/dt/wordplate/framework)](https://packagist.org/packages/wordplate/framework)
+[![Latest Version](https://badgen.net/github/release/wordplate/wordplate)](https://github.com/wordplate/wordplate/releases)
+[![License](https://badgen.net/packagist/license/wordplate/wordplate)](https://packagist.org/packages/wordplate/wordplate)
 
 ### Features
 
