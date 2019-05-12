@@ -1,14 +1,6 @@
----
-layout: page
-title: Installation
-redirect_from:
-  - /docs/getting-started
-  - /docs/theming
----
+# Installation
 
 To use WordPlate, you need to have PHP 7.1.3+ installed on your machine. You'll also optionally need [Node.js](https://nodejs.org/en) and [NPM](https://www.npmjs.com) installed if you want to use [Laravel Mix](https://laravel.com/docs/5.7/mix) to compile your CSS and Javascript.
-
-{% include youtube.html %}
 
 Make sure your server meets the following requirements:
 
@@ -20,6 +12,8 @@ Install WordPlate by issuing the Composer `create-project` command in your termi
 ```bash
 $ composer create-project wordplate/wordplate
 ```
+
+> Are you a visual learner? WordPlate provides a [free, thorough introduction to WordPlate](https://www.youtube.com/playlist?list=PLigSAMFNpkZiVpi0rSzoWhS4qa4JPq09O) for newcomers to the framework. It's a great place to start your journey.
 
 #### Laravel Valet
 
