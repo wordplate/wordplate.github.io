@@ -1,7 +1,4 @@
----
-layout: page
-title: Helpers
----
+# Helpers
 
 WordPlate includes a variety of "helper" PHP functions. You are free to use them in your own applications if you find them convenient.
 

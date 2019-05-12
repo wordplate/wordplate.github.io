@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^11.0.0"
+  }
+}

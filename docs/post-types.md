@@ -1,9 +1,4 @@
----
-layout: page
-title: Post Types
-redirect_from:
-  - /docs/taxonomies
----
+# Post Types
 
 For [custom post types](https://developer.wordpress.org/plugins/post-types/registering-custom-post-types) and [taxonomies](https://developer.wordpress.org/plugins/taxonomies) we recommend looking at [Extended CPTs](https://github.com/johnbillion/extended-cpts#readme) by [John Blackbourn](https://github.com/johnbillion). Extended CPTs is a library which provides extended functionality to WordPress custom post types and taxonomies. This allows developers to quickly build post types and taxonomies without having to write the same code again and again.
 
