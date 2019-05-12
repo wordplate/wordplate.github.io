@@ -2,8 +2,6 @@
 
 [WordPress Packagist](https://wpackagist.org) comes straight out of the box with WordPlate. It mirrors the WordPress [plugin](https://plugins.svn.wordpress.org) and [theme](https://themes.svn.wordpress.org) directories as a Composer repository.
 
-## Installation
-
 Require the desired plugin or theme using `wpackagist-plugin` or `wpackagist-theme` as the vendor name. Packages are installed to `public/plugins`, `public/mu-plugins` or `public/themes`.
 
 ```bash
@@ -52,7 +50,7 @@ The plugin is installed to the `public/mu-plugins` directory. Z
 
 Below we've put together a list of plugins we recommend using. If you've any suggestions of plugins we can add to this list, please let us know!
 
-- **Blade** - The [plugin](https://github.com/fiskhandlarn/blade) integrates [Laravel's Blade](https://laravel.com/docs/5.7/blade) templating system in WordPress.
+- **Blade** - The [plugin](https://github.com/fiskhandlarn/blade) integrates [Laravel's Blade](https://laravel.com/docs/5.8/blade) templating system in WordPress.
 - **Disable Embeds** - The [plugin](https://wordpress.org/plugins/disable-embeds) prevents others from embedding your site.
 - **Disable Emojis** - The [plugin](https://wordpress.org/plugins/disable-emojis) disables the new WordPress emoji functionality.
 - **Email Log** - The [plugin](https://wordpress.org/plugins/email-log) that allows you to log and view all emails sent from WordPress.

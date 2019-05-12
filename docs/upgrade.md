@@ -1,4 +1,4 @@
-# Upgrade Guid
+# Upgrade Guide
 
 ## Upgrade from 6 to 7
 
