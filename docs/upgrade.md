@@ -24,7 +24,7 @@ If you want to upgrade from WordPlate 7 to 8 you can follow this guide.
 
 1. The `base_path` and `template_slug` functions have been removed.
 
-1. Run `composer update` in the root of your project and your application should be up and running again!
+1. Run `composer update` in the root of your project and your app should be up and running!
 
 ## Upgrade from 6 to 7
 
