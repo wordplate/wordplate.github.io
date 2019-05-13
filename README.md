@@ -44,7 +44,7 @@ The project is developed openly on [GitHub](https://github.com/wordplate/wordpla
 
 ### Developers
 
-- [Vincent Klaiber](http://github.com/vinkla)
+- [Vincent Klaiber](https://github.com/vinkla)
 - [Chris Andersson](https://github.com/puredazzle)
 - [Daniel Gerdgren](https://github.com/tditlu)
 - [Oskar Joelson](https://github.com/fiskhandlarn)

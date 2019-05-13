@@ -12,12 +12,14 @@ This is an example of how your `composer.json` file might look like:
 
 ```json
 "require": {
-    "wordplate/framework": "^7.0",
+    "wordplate/framework": "^7.1",
     "wpackagist-plugin/hide-updates": "^1.0"
 },
 ```
 
 Please visit [WordPress Packagist](https://wpackagist.org) website for more information and examples.
+
+> Are you a visual learner? WordPlate provides a [free, thorough introduction to WordPlate](https://www.youtube.com/playlist?list=PLigSAMFNpkZiVpi0rSzoWhS4qa4JPq09O) for newcomers to the framework. It's a great place to start your journey.
 
 ## Must-use Plugins
 
@@ -44,7 +46,7 @@ Require the desired plugin using `wpackagist-plugin` as the vendor name.
 $ composer require wpackagist-plugin/hide-updates
 ```
 
-The plugin is installed to the `public/mu-plugins` directory. Z
+The plugin is installed to the `public/mu-plugins` directory.
 
 ## Third-party Plugins
 
