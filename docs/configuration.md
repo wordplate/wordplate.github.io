@@ -57,6 +57,8 @@ WordPlate supports WordPress 5.2+ and comes with the latest version out of the b
 }
 ```
 
+## WordPress Content
+
 If you want to save space we recommend removing the `wp-content` directory once WordPress has been installed through Composer. This won't break your current setup since WordPlate uses the `public` directory. If you want to remove the `wp-content` directory after running `composer install` or `composer update`, we suggest adding the following Composer script to your `composer.json` file:
 
 ```json
