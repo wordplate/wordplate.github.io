@@ -38,15 +38,12 @@ $ npm build
 
 ### Versioning
 
-If you've enabled [versioning and/or cache busting](https://laravel.com/docs/5.8/mix#versioning-and-cache-busting) using Laravel Mix's `version` method, WordPlate provides a `mix` helper function to load your CSS and JavaScript files in the `functions.php` file:
+If you've enabled [versioning and/or cache busting](https://laravel.com/docs/5.8/mix#versioning-and-cache-busting) using Laravel Mix's `version` method, WordPlate provides a `mix` helper function to load your CSS and JavaScript files:
 
 ```php
-add_action('wp_enqueue_scripts', function () {
-    wp_deregister_script('jquery');
-    
-    wp_enqueue_style('your-theme', mix('styles/app.css'));
-    wp_register_script('your-theme', mix('scripts/app.js'), '', '', true);
-    
-    wp_enqueue_script('your-theme');
-});
+// header.php
+<link rel="stylesheet" href="<?php echo mix('styles/app.css') ?>">
+
+// footer.php
+<script src="<?php echo mix('scripts/app.js'); ?>"></script>
 ```
