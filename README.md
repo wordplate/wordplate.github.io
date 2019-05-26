@@ -22,7 +22,7 @@ The project is developed openly on [GitHub](https://github.com/wordplate/wordpla
 
 - **WordPress Packagist.** Manage your WordPress plugins and themes with Composer. WordPlate has integrated WordPress Packagist out of the box.
 
-- **Must-use plugins.** WordPlate comes with a [must-use plugin](https://codex.wordpress.org/Must_Use_Plugins) loader out of the box. This means you can lock your plugins to specific versions and they are auto-activated by default.
+- **Must-use plugins.** WordPlate comes with a [must-use plugin](https://wordpress.org/support/article/must-use-plugins/) loader out of the box. This means you can lock your plugins to specific versions and they are auto-activated by default.
 
 - **Mail.** Are you using custom SMTP credentials to send emails? WordPlate provides a package to add your credentials to the environment file.
 
