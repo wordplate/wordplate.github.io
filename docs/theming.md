@@ -8,6 +8,10 @@ Building themes with WordPlate works like any other WordPress environment. All a
 
 For most WordPlate applications you may leave the theme directory as it is. If you want to rename the `wordplate` theme to something else you'll also need to update the `WP_THEME` environment variable in the `.env` file.
 
+## Debugging
+
+WordPlate implements the [`symfony/var-dumper`](https://github.com/symfony/var-dumper) package. The VarDumper component provides mechanisms for walking through any arbitrary PHP variable. It provides a better `dump()` function that you can use instead of `var_dump()`. There is also a `dd()` shorthand function available.
+
 ## Laravel Mix
 
 WordPlate integrates [Laravel Mix](https://laravel.com/docs/5.8/mix) to get you up and running with Webpack. By default WordPlate has added support for Sass, JavaScript (ES2015+) and [asset versioning](https://laravel.com/docs/5.8/mix#versioning-and-cache-busting).
