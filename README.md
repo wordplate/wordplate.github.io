@@ -28,11 +28,7 @@ The project is developed openly on [GitHub](https://github.com/wordplate/wordpla
 
 - **Laravel Mix.** Integrated Webpack build tool which comes with several common CSS and JavaScript pre-processors. Versioning and cache busting built right in.
 
-- **Security.** WordPlate installs the [`wp-password-bcrypt`](https://github.com/roots/wp-password-bcrypt#readme) package out of the box.
-
-- **Helpers.** WordPlate includes a variety of global "helper" PHP functions.
-
-
+- **Security.** WordPlate installs the [`roots/wp-password-bcrypt`](https://github.com/roots/wp-password-bcrypt#readme) package out of the box.
 
 ### Goals
 
