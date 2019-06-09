@@ -50,14 +50,15 @@ The plugin is installed to the `public/mu-plugins` directory.
 
 ## Third-party Plugins
 
-Below we've put together a list of plugins we recommend using. If you've any suggestions of plugins we can add to this list, please let us know!
+Below we've put together a list of plugins we recommend using in your WordPlate project:
 
 - **Blade** - The [plugin](https://github.com/fiskhandlarn/blade) integrates [Laravel's Blade](https://laravel.com/docs/5.8/blade) templating system in WordPress.
-- **Disable Embeds** - The [plugin](https://wordpress.org/plugins/disable-embeds) prevents others from embedding your site.
-- **Disable Emojis** - The [plugin](https://wordpress.org/plugins/disable-emojis) disables the new WordPress emoji functionality.
-- **Email Log** - The [plugin](https://wordpress.org/plugins/email-log) that allows you to log and view all emails sent from WordPress.
-- **Hide Updates** - The [plugin](https://wordpress.org/plugins/hide-updates) hides update notices for updates in WordPress.
-- **Soil** - The [plugin](https://roots.io/plugins/soil) contains a collection of modules to apply theme-agnostic front-end modifications.
-- **WP Migrate DB** - The [plugin](https://wordpress.org/plugins/wp-migrate-db) help you export your database as a MySQL data dump.
+- **Clean Image Filenames** - The [plugin](https://wordpress.org/plugins/clean-image-filenames/) removes special characters from filenames.
+- **Disable Embeds** - The [plugin](https://wordpress.org/plugins/disable-embeds/) prevents others from embedding your site.
+- **Disable Emojis** - The [plugin](https://wordpress.org/plugins/disable-emojis/) disables the new WordPress emoji functionality.
+- **Email Log** - The [plugin](https://wordpress.org/plugins/email-log/) that allows you to log and view all emails sent from WordPress.
+- **Hide Updates** - The [plugin](https://wordpress.org/plugins/hide-updates/) hides update notices for updates in WordPress.
+- **Soil** - The [plugin](https://roots.io/plugins/soil) contains a collection of theme-agnostic front-end modifications.
+- **WP Migrate DB** - The [plugin](https://wordpress.org/plugins/wp-migrate-db/) help you export your database as a MySQL data dump.
 
 If you know of a plugin which would fit on this list, please [open an issue](https://github.com/wordplate/wordplate.github.io) on GitHub!
