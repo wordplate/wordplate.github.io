@@ -18,7 +18,7 @@ If you want to upgrade from WordPlate 7 to 8 you can follow this guide.
     $ composer require laravel/helpers
     ```
 
-1. Laravel's collections is now optional in WordPlate. If you want to use collections, install the [`tightenco/collect`](https://github.com/tightenco/collect#readme) package, with Composer, in the root of your project:
+1. Laravel's collections are now optional in WordPlate. If you want to use collections, install the [`tightenco/collect`](https://github.com/tightenco/collect#readme) package, with Composer, in the root of your project:
 
     ```sh
     $ composer require tightenco/collect
