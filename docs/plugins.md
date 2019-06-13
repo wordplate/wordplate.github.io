@@ -19,13 +19,15 @@ This is an example of how your `composer.json` file might look like:
 
 Please visit [WordPress Packagist](https://wpackagist.org) website for more information and examples.
 
-> Are you a visual learner? WordPlate provides a [free, thorough introduction to WordPlate](https://www.youtube.com/playlist?list=PLigSAMFNpkZiVpi0rSzoWhS4qa4JPq09O) for newcomers to the framework. It's a great place to start your journey.
-
 ## Must-use Plugins
 
 With WordPlate you can enable standard plugins to be required just like [must-use](https://wordpress.org/support/article/must-use-plugins/) plugins.
 
-> [Must-use plugins](https://wordpress.org/support/article/must-use-plugins/) (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled on all sites in the installation.
+<Note label>
+
+<small>_[Must-use plugins](https://wordpress.org/support/article/must-use-plugins/) (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled on all sites in the installation._</small>
+
+</Note>
 
 Add the desired `mu-plugins` using `wpackagist-plugin` as the vendor name to `installer-paths` in your `composer.json` file.
 

@@ -8,7 +8,11 @@ Install WordPlate by issuing the Composer `create-project` command in your termi
 $ composer create-project wordplate/wordplate
 ```
 
-> Are you a visual learner? WordPlate provides a [free, thorough introduction to WordPlate](https://www.youtube.com/playlist?list=PLigSAMFNpkZiVpi0rSzoWhS4qa4JPq09O) for newcomers to the framework. It's a great place to start your journey.
+<Note type="tip" label>
+
+Are you a visual learner? WordPlate provides a [free, thorough introduction to WordPlate](https://www.youtube.com/playlist?list=PLigSAMFNpkZiVpi0rSzoWhS4qa4JPq09O) for newcomers to the framework. It's a great place to start your journey.
+
+</Note>
 
 #### Laravel Valet
 

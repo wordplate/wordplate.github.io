@@ -2,7 +2,12 @@
 
 Languages could be installed the same way as [plugins](/docs/plugins); requiring each language with Composer from [Koodimonni's repository](https://wp-languages.github.io/).
 
-> **Note:** This should work out of the box with a new WordPress installation. If you're [having issues](https://github.com/wordplate/wordplate/issues/194#issue-296169157) this page will help you to install custom languages.
+<Note label>
+
+<small>_This should work out of the box with a new WordPress installation. If you're [having issues](https://github.com/wordplate/wordplate/issues/194#issue-296169157) this page will help you to install custom languages._</small>
+
+</Note>
+
 
 Require the desired language using `koodimonni-language` or `koodimonni-plugin-language` as the vendor name. Packages are installed to `public/languages`.
 

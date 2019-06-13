@@ -9,8 +9,12 @@ If you want to upgrade from WordPlate 7 to 8 you can follow this guide.
 1. WordPlate now requires PHP 7.2 or later.
 
 1. Bump the version number in the `composer.json` file to `^8.0`.
+    
+    <Note>
 
-    > **Note:** WordPlate 8.0 requires WordPress 5.2 or later.
+    WordPlate 8.0 requires WordPress 5.2 or later.
+
+    </Note>
 
 1. Laravel's helper functions is now optional in WordPlate. If you want to use the functions, install the [`laravel/helpers`](https://github.com/laravel/helpers#readme) package, with Composer, in the root of your project:
 
@@ -38,7 +42,11 @@ If you want to upgrade from WordPlate 6 to 7 you can follow this guide.
 
 1. Bump the version number in the `composer.json` file to `^7.0`.
 
-    > **Note:** WordPlate 7.0 requires WordPress 5.0 or later.
+    <Note>
+
+    WordPlate 7.0 requires WordPress 5.0 or later.
+
+    </Note>
 
 1. Update the `realpath(__DIR__)` to `realpath(__DIR__.'/../')` in the `wp-config.php` file.
 
@@ -73,7 +81,11 @@ If you want to upgrade from WordPlate 4 to 5 you can follow this guide.
 1. Bump the version number in the `composer.json` file to `^5.0`.
 
 1. Copy and paste the contents of the [`wp-config.php`](public/wp-config.php) file into your application.
+    
+    <Note>
 
-    > **Note:** Make sure you don't overwrite any of your custom constants.
+    Make sure you don't overwrite any of your custom constants.
+
+    </Note>
 
 1. Run `composer update` and everything should work as before.
