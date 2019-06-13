@@ -17,6 +17,12 @@ If you want to upgrade from WordPlate 7 to 8 you can follow this guide.
     ```sh
     $ composer require laravel/helpers
     ```
+
+1. Laravel's collections is now optional in WordPlate. If you want to use collections, install the [`tightenco/collect`](https://github.com/tightenco/collect#readme) package, with Composer, in the root of your project:
+
+    ```sh
+    $ composer require tightenco/collect
+    ```
     
 1. Replace any usage of `asset`, `stylesheet_url` and `template_url` functions with WordPress's [`get_theme_file_uri`](https://developer.wordpress.org/reference/functions/get_theme_file_uri/) function.
 
