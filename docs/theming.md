@@ -44,14 +44,4 @@ When you're ready to deploy your application to production you may use the `buil
 $ npm build
 ```
 
-### Versioning
-
-If you've enabled [versioning and/or cache busting](https://laravel.com/docs/5.8/mix#versioning-and-cache-busting) using Laravel Mix's `version` method, WordPlate provides a `mix` helper function to load your CSS and JavaScript files:
-
-```php
-// header.php
-<link rel="stylesheet" href="<?php echo mix('styles/app.css') ?>">
-
-// footer.php
-<script src="<?php echo mix('scripts/app.js'); ?>"></script>
-```
+This will by default transpile your CSS and JavaScript into the `assets` directory within your theme directory.

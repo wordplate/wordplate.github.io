@@ -27,6 +27,12 @@ If you want to upgrade from WordPlate 7 to 8 you can follow this guide.
     ```sh
     $ composer require tightenco/collect
     ```
+
+1. The `mix` helper function is now optional in WordPlate. If you want to use the function, install the [`ibox/mix-function`](https://github.com/juanem1/mix-function#readme) package, with Composer, in the root of your project:
+
+    ```sh
+    $ composer require ibox/mix-function
+    ```
     
 1. Replace any usage of `asset`, `stylesheet_url` and `template_url` functions with WordPress's [`get_theme_file_uri`](https://developer.wordpress.org/reference/functions/get_theme_file_uri/) function.
 
