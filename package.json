@@ -5,8 +5,12 @@
     "release": "VERSION=$(utc-version); replace-in-files --regex='\\d+\\.\\d+\\.\\d+.\\d+' --replacement=$VERSION index.html; git add .; git commit -m $VERSION; git push"
   },
   "dependencies": {
-    "replace-in-files-cli": "^0.1.0",
-    "serve": "^11.0.0",
+    "prettier": "^1.18.2",
+    "replace-in-files-cli": "^0.2.0",
+    "serve": "^11.1.0",
     "utc-version": "^2.0.1"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }

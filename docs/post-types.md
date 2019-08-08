@@ -8,7 +8,7 @@ Require the [extended-cpts package](https://github.com/johnbillion/extended-cpts
 $ composer require johnbillion/extended-cpts
 ```
 
-Now you can register new custom post types and taxonomies with the `register_extended_post_type` and `register_extended_taxonomy` helper functions. 
+Now you can register new custom post types and taxonomies with the `register_extended_post_type` and `register_extended_taxonomy` helper functions.
 
 ```php
 add_action('init', function() {

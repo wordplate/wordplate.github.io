@@ -8,7 +8,6 @@ Languages could be installed the same way as [plugins](/docs/plugins); requiring
 
 </Note>
 
-
 Require the desired language using `koodimonni-language` or `koodimonni-plugin-language` as the vendor name. Packages are installed to `public/languages`.
 
 ```bash
@@ -19,22 +18,20 @@ This is an example of how your `composer.json` file might look like:
 
 ```json
 {
-    "require": {
-        "koodimonni-language/core-sv_se": "^4.9"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://wp-languages.github.io"
-        }
-    ],
-    "extra": {
-        "dropin-paths": {
-            "public/languages/": [
-                "vendor:koodimonni-language"
-            ]
-        }
+  "require": {
+    "koodimonni-language/core-sv_se": "^4.9"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wp-languages.github.io"
     }
+  ],
+  "extra": {
+    "dropin-paths": {
+      "public/languages/": ["vendor:koodimonni-language"]
+    }
+  }
 }
 ```
 
