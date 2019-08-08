@@ -58,8 +58,10 @@ Below we've put together a list of plugins we recommend using in your WordPlate 
 - **Clean Image Filenames** - The [plugin](https://wordpress.org/plugins/clean-image-filenames/) removes special characters from filenames.
 - **Disable Embeds** - The [plugin](https://wordpress.org/plugins/disable-embeds/) prevents others from embedding your site.
 - **Disable Emojis** - The [plugin](https://wordpress.org/plugins/disable-emojis/) disables the new WordPress emoji functionality.
+- **Disable WP REST API** - The [plugin](https://wordpress.org/plugins/disable-wp-rest-api/) disables the REST API for visitors who aren't logged into WordPress.
 - **Email Log** - The [plugin](https://wordpress.org/plugins/email-log/) that allows you to log and view all emails sent from WordPress.
 - **Hide Updates** - The [plugin](https://wordpress.org/plugins/hide-updates/) hides update notices for updates in WordPress.
+- **Nietzsche** - The [plugin](https://wordpress.org/plugins/nietzsche/) light and fast `wp_head()` cleaner.
 - **Soil** - The [plugin](https://roots.io/plugins/soil) contains a collection of theme-agnostic front-end modifications.
 - **WP Migrate DB** - The [plugin](https://wordpress.org/plugins/wp-migrate-db/) help you export your database as a MySQL data dump.
 
