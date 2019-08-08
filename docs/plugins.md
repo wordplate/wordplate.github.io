@@ -54,15 +54,14 @@ The plugin is installed to the `public/mu-plugins` directory.
 
 Below we've put together a list of plugins we recommend using in your WordPlate project:
 
-- **Blade** - The [plugin](https://github.com/fiskhandlarn/blade) integrates [Laravel's Blade](https://laravel.com/docs/5.8/blade) templating system in WordPress.
-- **Clean Image Filenames** - The [plugin](https://wordpress.org/plugins/clean-image-filenames/) removes special characters from filenames.
-- **Disable Embeds** - The [plugin](https://wordpress.org/plugins/disable-embeds/) prevents others from embedding your site.
-- **Disable Emojis** - The [plugin](https://wordpress.org/plugins/disable-emojis/) disables the new WordPress emoji functionality.
-- **Disable WP REST API** - The [plugin](https://wordpress.org/plugins/disable-wp-rest-api/) disables the REST API for visitors who aren't logged into WordPress.
-- **Email Log** - The [plugin](https://wordpress.org/plugins/email-log/) that allows you to log and view all emails sent from WordPress.
-- **Hide Updates** - The [plugin](https://wordpress.org/plugins/hide-updates/) hides update notices for updates in WordPress.
-- **Nietzsche** - The [plugin](https://wordpress.org/plugins/nietzsche/) light and fast `wp_head()` cleaner.
-- **Soil** - The [plugin](https://roots.io/plugins/soil) contains a collection of theme-agnostic front-end modifications.
-- **WP Migrate DB** - The [plugin](https://wordpress.org/plugins/wp-migrate-db/) help you export your database as a MySQL data dump.
+- [**Blade**](https://github.com/fiskhandlarn/blade) - The plugin integrates [Laravel's Blade](https://laravel.com/docs/5.8/blade) templating system in WordPress.
+- [**Clean Image Filenames**](https://wordpress.org/plugins/clean-image-filenames/) - The plugin removes special characters from filenames.
+- [**Disable Embeds**](https://wordpress.org/plugins/disable-embeds/) - The plugin prevents others from embedding your site.
+- [**Disable Emojis**](https://wordpress.org/plugins/disable-emojis/) - The plugin disables the new WordPress emoji functionality.
+- [**Disable WP REST API**](https://wordpress.org/plugins/disable-wp-rest-api/) - The plugin disables the REST API for visitors.
+- [**Email Log**](https://wordpress.org/plugins/email-log/) - The plugin that allows you to log and view all emails sent from WordPress.
+- [**Hide Updates**](https://wordpress.org/plugins/hide-updates/) - The plugin hides update notices for updates in WordPress.
+- [**Nietzsche**](https://wordpress.org/plugins/nietzsche/) - The plugin light and fast `wp_head()` cleaner.
+- [**WP Migrate DB**](https://wordpress.org/plugins/wp-migrate-db/) - The plugin help you export your database as a MySQL data dump.
 
 If you know of a plugin which would fit on this list, please [open an issue](https://github.com/wordplate/wordplate.github.io) on GitHub!
