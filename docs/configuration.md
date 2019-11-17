@@ -61,6 +61,24 @@ WordPlate supports WordPress 5.2+ and comes with the latest version out of the b
 }
 ```
 
+## WordPress Directory
+
+By default WordPlate will put the WordPress in `public/wordpress`. If you want to change this there are a couple of steps you need to go through. Let's say you want to change the default WordPress location to `public/wp`:
+
+1. Update the `wordpress-install-dir` path in your `composer.json` file.
+
+2. Update `wordpress` to `wp` in `wordplate/public/.gitignore`.
+
+3. Update the last line in the `public/index.php` file to:
+    
+    ```php
+    require __DIR__.'/wp/wp-blog-header.php';
+    ```
+
+4. If you're using WP-CLI, update the path in the `wp-cli.yml` file to `public/wp`.
+
+5. Remove the `public/wordpress` directory if it exist and then run `composer update`.
+
 ## WordPress Content
 
 If you want to save space we recommend removing the `wp-content` directory once WordPress has been installed through Composer. This won't break your current setup since WordPlate uses the `public` directory. If you want to remove the `wp-content` directory after running `composer install` or `composer update`, we suggest adding the following Composer script to your `composer.json` file:
