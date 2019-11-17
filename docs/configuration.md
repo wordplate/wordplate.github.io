@@ -51,6 +51,8 @@ If you want to rename the `public` directory you'll need to add the following li
 $application->setPublicPath(realpath(__DIR__));
 ```
 
+Please note that you also have to update your `composer.json` file with your new `public` directory path before you can run `composer update` again.
+
 ## WordPress Version
 
 WordPlate supports WordPress 5.2+ and comes with the latest version out of the box. If you want to configure an exact version of WordPress, **which isn't recommended**, you may add it to your `composer.json` file. This way you can lock the WordPress version number to the one you're working with.
