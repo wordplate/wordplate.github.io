@@ -10,7 +10,7 @@ If you want to upgrade from WordPlate 7 to 8 you can follow this guide.
 
    <Note>
 
-   WordPlate 8.0 requires WordPress 5.2 or later.
+   WordPlate 8.0 requires WordPress 5.3 or later.
 
    </Note>
 
