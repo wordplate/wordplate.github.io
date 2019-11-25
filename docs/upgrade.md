@@ -2,8 +2,6 @@
 
 ## Upgrade from 7 to 8
 
-**🚧 This version is still under development 🚧**
-
 If you want to upgrade from WordPlate 7 to 8 you can follow this guide.
 
 1. WordPlate now requires PHP 7.2 or later.
