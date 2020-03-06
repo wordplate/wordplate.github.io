@@ -54,7 +54,7 @@ The plugin is installed to the `public/mu-plugins` directory.
 
 Below we've put together a list of plugins we recommend using in your WordPlate project:
 
-- [**Blade**](https://github.com/fiskhandlarn/blade) - The plugin integrates [Laravel's Blade](https://laravel.com/docs/5.8/blade) templating system in WordPress.
+- [**Blade**](https://github.com/fiskhandlarn/blade) - The plugin integrates [Laravel's Blade](https://laravel.com/docs/7.x/blade) templating system in WordPress.
 - [**Clean Image Filenames**](https://wordpress.org/plugins/clean-image-filenames/) - The plugin removes special characters from filenames.
 - [**Disable Embeds**](https://wordpress.org/plugins/disable-embeds/) - The plugin prevents others from embedding your site.
 - [**Disable Emojis**](https://wordpress.org/plugins/disable-emojis/) - The plugin disables the new WordPress emoji functionality.

@@ -14,7 +14,7 @@ WordPlate implements the [`symfony/var-dumper`](https://github.com/symfony/var-d
 
 ## Laravel Mix
 
-WordPlate integrates [Laravel Mix](https://laravel.com/docs/5.8/mix) to get you up and running with Webpack. By default WordPlate has added support for Sass, JavaScript (ES2015+) and [asset versioning](https://laravel.com/docs/5.8/mix#versioning-and-cache-busting).
+WordPlate integrates [Laravel Mix](https://laravel.com/docs/7.x/mix) to get you up and running with Webpack. By default WordPlate has added support for Sass, JavaScript (ES2015+) and [asset versioning](https://laravel.com/docs/7.x/mix#versioning-and-cache-busting).
 
 <Note label>
 
