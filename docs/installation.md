@@ -14,9 +14,9 @@ Are you a visual learner? WordPlate provides a [free, thorough introduction to W
 
 </Note>
 
-#### Laravel Valet
+## Laravel Valet
 
-If you're using [Laravel Valet](https://laravel.com/docs/7.x/valet) together with WordPlate, you may use our local valet driver. Create a file named `LocalValetDriver.php` in the root of your WordPlate project and copy and paste the class below:
+If you're using [Laravel Valet](https://laravel.com/docs/7.x/valet) together with WordPlate, you may use our local valet driver. Create a file named `LocalValetDriver.php` in the root of your project and copy and paste the class below:
 
 ```php
 <?php
