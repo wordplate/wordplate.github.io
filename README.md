@@ -6,11 +6,9 @@ WordPlate is a free and open-source WordPress stack with a focus on simplicity. 
 
 WordPlate is simply a wrapper around WordPress to make developers life easier. It is just like developing any WordPress website with [themes](https://developer.wordpress.org/themes) and [plugins](https://developer.wordpress.org/plugins).
 
-[![Build Status](https://badgen.net/travis/wordplate/framework/master)](https://travis-ci.org/wordplate/framework)
-[![Coverage Status](https://badgen.net/codecov/c/github/wordplate/framework)](https://codecov.io/github/wordplate/framework)
-[![Monthly Downloads](https://badgen.net/packagist/dm/wordplate/framework)](https://packagist.org/packages/wordplate/framework)
-[![Latest Version](https://badgen.net/github/release/wordplate/wordplate)](https://github.com/wordplate/wordplate/releases)
-[![License](https://badgen.net/packagist/license/wordplate/wordplate)](https://packagist.org/packages/wordplate/wordplate)
+[![Build Status](https://badgen.net/github/checks/wordplate/framework?label=build&icon=github)](https://github.com/wordplate/framework/actions)
+[![Monthly Downloads](https://badgen.net/packagist/dm/wordplate/framework)](https://packagist.org/packages/wordplate/framework/stats)
+[![Latest Version](https://badgen.net/packagist/v/wordplate/framework)](https://packagist.org/packages/wordplate/framework)
 
 The project is developed openly on [GitHub](https://github.com/wordplate/wordplate), feel free to contribute!
 
