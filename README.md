@@ -45,4 +45,4 @@ The project is developed openly on [GitHub](https://github.com/wordplate/wordpla
 
 ### License
 
-[MIT](https://github.com/wordplate/wordplate.github.io/blob/master/LICENSE) © [Vincent Klaiber](https://doubledip.se)
+[MIT](https://github.com/wordplate/wordplate.github.io/blob/master/LICENSE) © [Vincent Klaiber](https://vinkla.dev/)
