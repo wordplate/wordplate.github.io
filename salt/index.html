@@ -5,57 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Salt - WordPlate</title>
-    <link rel="icon" href="/favicon.svg" type="image/svg" />
 
-    <style>
-      textarea {
-        display: block;
-        height: 100%;
-        width: 100%;
-        font-family: monospace;
-        font-size: 16px;
-        line-height: 24px;
-        white-space: pre;
-        margin: 0;
-        padding: 16px 0 16px 16px;
-        border: 0 none;
-      }
-
-      textarea:focus {
-        outline: 0 none;
-      }
-    </style>
+    <meta http-equiv="Refresh" content="0; url='https://vinkla.github.io/salts/'" />
   </head>
   <body>
-    <textarea rows="8" autofocus readonly></textarea>
-    <script>
-      const randomString = () => {
-        let arr = new Uint8Array(64 / 2);
-
-        window.crypto.getRandomValues(arr);
-
-        return Array.from(arr, dec => ("0" + dec.toString(16)).substr(-2)).join(
-          ""
-        );
-      };
-
-      const field = document.querySelector("textarea");
-      const keys = [
-        "AUTH_KEY",
-        "SECURE_AUTH_KEY",
-        "LOGGED_IN_KEY",
-        "NONCE_KEY",
-        "AUTH_SALT",
-        "SECURE_AUTH_SALT",
-        "LOGGED_IN_SALT",
-        "NONCE_SALT"
-      ];
-
-      field.addEventListener("focus", () => field.select());
-      field.addEventListener("click", () => field.select());
-      field.addEventListener("mouseup", () => false);
-
-      keys.forEach(key => (field.innerHTML += `${key}=${randomString()}\n`));
-    </script>
   </body>
 </html>
